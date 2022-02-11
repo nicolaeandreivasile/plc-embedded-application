@@ -3,5 +3,4 @@ A PLC (Programmable Logic Controller) made from scratch focused on controlling a
 
 
 ## Board design
-Control unit schematic under development
-I/O unit schematic development process not started yet 
+Control unit schematic under development. I/O unit schematic development process not started yet 
