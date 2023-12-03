@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "ESP-programmer")
+    (date "2023-12-03")
+    (rev "A")
+    (comment 1 "Author: Nicloae-Andrei Vasile")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
