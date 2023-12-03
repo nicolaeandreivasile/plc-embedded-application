@@ -1,0 +1,33 @@
+Reference,Value,Footprint,Datasheet,MPN,Manufacturer,Price,Total Price,Purchase Link,Qty
+"C1, C8, C14, C17, C20",22uF/16V/20%/4.3x4.3mm,Capacitor_SMD:CP_Elec_4x5.4,https://ro.mouser.com/datasheet/2/88/SML-2944694.pdf,226SML016MD4,CDE / Illinois Capacitor,$0.40,$2.00,,5
+"C2, C6, C16, C19, C23",0.1uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf,C0603C104K9RACTU,KEMET,$0.10,0.5,https://ro.mouser.com/ProductDetail/KEMET/C0603C104K9RACTU?qs=7q2aiX3GdliuPZzPpldOsA%3D%3D,5
+"C3, C5, C24",22uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,~,,,,0,,3
+"C4, C7, C12, C15, C18, C21",1uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,~,,,,0,,6
+"C9, C10",25pF/6.3V/10%/C0603,Capacitor_SMD:C_0603_1608Metric,~,,,,0,,2
+C11,1nF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,~,,,,0,,1
+"C13, C22",470pF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,~,,,,0,,2
+H1-H4,MountingHole,MountingHole:MountingHole_2.5mm_Pad_Via,~,,,,0,,4
+J1,640456-3,digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English,640456-3,TE Connectivity AMP Connectors,,0,,1
+J2,Conn_ARM_JTAG_SWD_10,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf,,,,0,,1
+"J3, J4",302-S101,Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical,http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf,302-S101,On Shore Technology Inc.,,0,,2
+J5,RJ45_Wuerth_7499010121A,Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal,http://katalog.we-online.de/pbs/datasheet/7499010121A.pdf,,,,0,,1
+JP1,SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,~,,,,0,,1
+JP2-JP5,SolderJumper_3_Open,Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,~,,,,0,,4
+L1-L3,FB0805/600R/2A,Inductor_SMD:L_0805_2012Metric,~,,,,0,,3
+"Q1, Q2",BC817,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pub/Collateral/BC818-D.pdf,,,,0,,2
+"R1, R9-R15, R19-R22, R31",0R(board_mounted),Resistor_SMD:R_0402_1005Metric,~,,,,0,,13
+"R2, R4, R5",100K/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,3
+"R3, R6-R8, R23, R25, R34",10K/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,7
+R16-R18,10R/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,3
+R24,1K/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,1
+R26,12.1K/1%/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,1
+R27-R30,49.9R/1%/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,4
+"R32, R33",330R/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,2
+RV1,V5.5MLA0603N,Resistor_SMD:R_0603_1608Metric,~,,,,0,,1
+"S1, S2",1825910-6,Button_Switch_SMD:SW_MEC_5GSH9,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English,1825910-6,TE Connectivity ALCOSWITCH Switches,,0,,2
+U1,BD48ExxG,Package_TO_SOT_SMD:SOT-23-5,https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e,,,,0,,1
+U2,ESP32-WROVER-E,Espressif:ESP32-WROVER-E,https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf,,,,0,,1
+U3,LAN8720A,Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias,http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf,,,,0,,1
+Y1,Q25MHz/20ppm/3.2x2.5mm (FL2500213Z),Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,~,,,,0,,1
+,,,,,,,,,
+Total,,,,,,,,,

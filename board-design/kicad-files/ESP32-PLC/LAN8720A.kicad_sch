@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "PLC")
-    (date "2023-08-20")
+    (title "ESP32")
+    (date "2023-12-03")
     (rev "A")
   )
 
@@ -2452,7 +2452,7 @@
     (property "Datasheet" "" (at 133.35 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f32b975b-e83b-459e-8662-83cc6c63e9d7))
+    (pin "1" (uuid 031a5ed3-a07f-40c1-9416-312f0b935e24))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2480,19 +2480,19 @@
     (property "Datasheet" "http://katalog.we-online.de/pbs/datasheet/7499010121A.pdf" (at 199.39 80.01 0)
       (effects (font (size 1.27 1.27)) (justify top) hide)
     )
-    (pin "1" (uuid 77ab6265-d087-4fad-9356-5d3e2a4f53a4))
-    (pin "10" (uuid b89315f8-9813-4929-b90b-040f6a5180a7))
-    (pin "11" (uuid bfff9afd-5ee2-4f68-8f28-31404ae2e436))
-    (pin "12" (uuid a1abec05-06a2-4c1d-8a9c-44bffb907812))
-    (pin "2" (uuid e092cd5d-6d7b-4529-9bfc-6f83062db59b))
-    (pin "3" (uuid 0a17cfba-ce13-4d28-9d44-922001584009))
-    (pin "4" (uuid 02ef5ea4-2633-4a6c-af40-0217a49e2d95))
-    (pin "5" (uuid 6c407426-25e4-4f1f-bbde-325a7416268c))
-    (pin "6" (uuid 971d0f90-1357-45b3-a394-1795685a8828))
-    (pin "7" (uuid 818050e8-0058-432a-bbc2-6ac7efe40012))
-    (pin "8" (uuid f2393dd2-8ff5-4bf1-8cd0-ddcde393ce87))
-    (pin "9" (uuid 196110af-9277-4384-aa2b-524ef5d23195))
-    (pin "SH" (uuid 011868b3-8c7f-445c-b7ed-bbb74790c6c0))
+    (pin "1" (uuid 0fa486b4-3161-4d9a-916d-c9721199432f))
+    (pin "10" (uuid 5d195519-1148-4469-b16d-53dbedcc32a7))
+    (pin "11" (uuid 525f6aec-b2e4-4040-bfe8-1500dfd2efa6))
+    (pin "12" (uuid 83c0084f-9275-43e3-a38d-0dd844b9944f))
+    (pin "2" (uuid 340e6210-9be2-4ebb-a9b6-05498c06c02a))
+    (pin "3" (uuid 9b8bb0fb-73cd-460c-ae9b-8cf308fa25fa))
+    (pin "4" (uuid 51042874-eda4-4169-ab87-7cce89d8a66e))
+    (pin "5" (uuid c5d2ae02-a0b8-452b-97a5-e0184dc0771b))
+    (pin "6" (uuid 80ac5010-b7fd-41be-8d78-4898ad5e5d44))
+    (pin "7" (uuid ea96d87e-79b0-4a03-b45f-4d94b33ed9d7))
+    (pin "8" (uuid 40b63d99-460c-4f79-8897-5252a69c7320))
+    (pin "9" (uuid 6c3b5956-6381-404c-bf85-afdf0e05015e))
+    (pin "SH" (uuid 425c4d73-e107-4462-84a3-e11a5a4aaab6))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2520,7 +2520,7 @@
     (property "Datasheet" "" (at 215.9 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e17acf83-4b7b-4aa8-a5d5-b6f98342a840))
+    (pin "1" (uuid c4f91a81-e62e-4aa9-aab6-8e66e8250fb8))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2548,10 +2548,10 @@
     (property "Datasheet" "~" (at 58.42 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5f7871f1-04f6-4c0b-b12f-b220f96a5996))
-    (pin "2" (uuid 1ca8ccb7-3591-4765-b352-e8f1d8ae03da))
-    (pin "3" (uuid b3f6fa87-9445-4664-92db-743004a5f613))
-    (pin "4" (uuid fa8b9275-4f21-457f-8654-23943a6d0440))
+    (pin "1" (uuid 7ef11bbf-cfa9-44c9-8910-ac2896230fb1))
+    (pin "2" (uuid eb264d2b-8dfc-4720-b7e9-b0130b0f384c))
+    (pin "3" (uuid 8407f9d3-cb64-4824-b023-5aa01b503b3d))
+    (pin "4" (uuid 9f938b99-6bc3-408d-bade-6df33b7c94e1))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2579,7 +2579,7 @@
     (property "Datasheet" "" (at 125.73 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1b84703d-4f69-4401-857d-a7075b4a38d9))
+    (pin "1" (uuid 6ecf4b21-1e0e-43ee-b207-6385f1acabe0))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2622,8 +2622,8 @@
     (property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp" (at 233.68 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5625d2b7-77a5-493c-a34d-0dc98fe40533))
-    (pin "2" (uuid 8f4a9c91-573e-443a-8512-49cb253344b6))
+    (pin "1" (uuid aa8d53cb-e235-45a2-ad13-af3180a9967e))
+    (pin "2" (uuid ed2868cf-e5c0-4eb7-a611-17c0a1d6e012))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
@@ -2648,7 +2648,7 @@
     (property "Datasheet" "" (at 242.57 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 795ee56c-bac4-4116-b135-a23d12765640))
+    (pin "1" (uuid 53474d06-685d-4131-80f7-22e957c9d73f))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2676,8 +2676,8 @@
     (property "Datasheet" "~" (at 170.18 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c869a3b4-f79a-4fc5-bb1b-132780fcf658))
-    (pin "2" (uuid 6d327e54-9ab6-41bc-b5c8-cf98319120f0))
+    (pin "1" (uuid 92f507e4-14b7-44e2-8ace-71555b0e3039))
+    (pin "2" (uuid efcc48c2-e02a-4930-9d8f-6b22aec7ac7d))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2705,8 +2705,8 @@
     (property "Datasheet" "~" (at 95.25 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ac328d6c-e6b3-4d17-b6d9-cbbc70d784d0))
-    (pin "2" (uuid 9f43e1a0-5710-49eb-90bd-4c9ab1591328))
+    (pin "1" (uuid 1ad9bdf7-4b17-4f2e-b0bb-fe09a5c851a9))
+    (pin "2" (uuid d48dfb9c-f426-4d7d-b6ca-15a880bd106a))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2734,7 +2734,7 @@
     (property "Datasheet" "" (at 58.42 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid badc1f31-2005-46b9-898e-50f9d8434bf2))
+    (pin "1" (uuid 30a40f52-7b86-4a79-8feb-83a915ad6ae4))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2762,8 +2762,8 @@
     (property "Datasheet" "~" (at 172.72 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a2c00ff2-0158-4cdb-b935-6d29bb2001cc))
-    (pin "2" (uuid 9c6d6415-27be-40f8-930d-1c8beb3c8649))
+    (pin "1" (uuid f7085113-82db-4868-8dbe-ba733eaa537c))
+    (pin "2" (uuid 0d44a57b-4360-4d3a-99ca-3765dc381788))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2791,8 +2791,8 @@
     (property "Datasheet" "~" (at 64.77 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 72b060b7-aaa4-4010-a018-7930b9779dab))
-    (pin "2" (uuid fc36c59d-8d9f-4cfa-b51c-4057b9d396ef))
+    (pin "1" (uuid f680b4bd-0924-4159-82d1-6e1df307c168))
+    (pin "2" (uuid e9741cb5-0956-47a9-81a9-0dfbfd1ddce8))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2820,8 +2820,8 @@
     (property "Datasheet" "~" (at 209.55 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fef2bb02-8aeb-4863-8f9d-1ba00c091384))
-    (pin "2" (uuid f0709986-2315-47a1-9318-86888194bec8))
+    (pin "1" (uuid 4ef09f6a-7c0a-4a4e-9dbd-e0a527f00062))
+    (pin "2" (uuid bdcafac6-64c9-4430-aec3-ff5993e47bcf))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2849,8 +2849,8 @@
     (property "Datasheet" "~" (at 69.85 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ffd0291a-8dc6-4a5a-96d9-842cc3ca4301))
-    (pin "2" (uuid 08e44440-b4e3-4c5c-bbc8-b385fb584922))
+    (pin "1" (uuid 7925e722-247a-4389-9e01-8f1d9b79ba10))
+    (pin "2" (uuid 00ea58ef-7b41-4139-8288-d6ff4796fb93))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2878,8 +2878,8 @@
     (property "Datasheet" "~" (at 97.79 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33c67dd4-9e39-4b9c-8a60-ee057f5a975c))
-    (pin "2" (uuid 85a8385d-14ed-4f0f-b7e8-3fd8550aa2d4))
+    (pin "1" (uuid d7ea9cd9-37f3-4d6c-aa40-bf0b30f74ecf))
+    (pin "2" (uuid 3d354b26-9e18-49f7-b849-77a15e6b172b))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2907,8 +2907,8 @@
     (property "Datasheet" "~" (at 133.35 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 426b7d50-1f16-4a1e-80e1-45c42b703b18))
-    (pin "2" (uuid a7474450-afa6-46b9-be33-2d6e987fd17b))
+    (pin "1" (uuid 058acaba-955e-4524-8831-8acce4046cce))
+    (pin "2" (uuid 3312974b-a076-4cbf-9f46-305d3c63f187))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2936,8 +2936,8 @@
     (property "Datasheet" "~" (at 107.95 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7fa32624-4ec5-4e5a-a583-5ec451dc872e))
-    (pin "2" (uuid a122a643-6912-4dc7-83a3-b35863d7439c))
+    (pin "1" (uuid 47bc453c-9420-4b23-9e7a-e9bc4e347bc4))
+    (pin "2" (uuid 64bb8647-f450-4bf8-a287-0e05d490a656))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2965,8 +2965,8 @@
     (property "Datasheet" "~" (at 177.8 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e9b778f-0635-4baf-98a5-1d5b5387e1ce))
-    (pin "2" (uuid 6dafafaa-1f63-4372-956c-1aaa768119bd))
+    (pin "1" (uuid acdf8f17-3af3-45a1-9bc9-fbb640bf87b2))
+    (pin "2" (uuid da87f01c-1ecc-4487-8169-8c95c542f513))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -2994,8 +2994,8 @@
     (property "Datasheet" "~" (at 165.1 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a66139d2-7ab5-4058-8eb5-b6359c7084f7))
-    (pin "2" (uuid 48521331-57ea-4e1d-a359-0679dab86925))
+    (pin "1" (uuid 186f92c4-fde9-4c6a-9398-78f31d66c44d))
+    (pin "2" (uuid 825cb3ad-0489-484f-a149-1d0e78a02b2b))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3023,8 +3023,8 @@
     (property "Datasheet" "~" (at 146.05 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0ea90d6f-5e0f-4d50-adca-81f58f19acff))
-    (pin "2" (uuid ca6df6ae-11eb-4620-9205-7ce495a5ca50))
+    (pin "1" (uuid 4377937a-9af7-42f7-90d5-edcf33435a3e))
+    (pin "2" (uuid 217e51fc-3bbb-4019-b0a3-a2e456aaefbd))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3052,8 +3052,8 @@
     (property "Datasheet" "~" (at 167.64 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f24f9ec8-4ae0-4774-8b6e-a2533624976a))
-    (pin "2" (uuid 645d5562-939b-474f-a82c-1212d9e10753))
+    (pin "1" (uuid 42e49c56-154f-46f4-bbc5-4c2a4e39a4d7))
+    (pin "2" (uuid 14285774-9bf8-4cbd-8820-287cc6996a85))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3081,8 +3081,8 @@
     (property "Datasheet" "~" (at 69.85 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1496d2dd-6a77-46db-afb5-2112b1587b0e))
-    (pin "2" (uuid e059f7d8-d99c-461a-8ddd-6c6055a43935))
+    (pin "1" (uuid 8711d9d6-e9ea-4421-929a-2f59c71e962a))
+    (pin "2" (uuid 8b13fb74-95aa-43a6-a53e-7c5db53313eb))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3110,7 +3110,7 @@
     (property "Datasheet" "" (at 114.3 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 31252886-2e4a-4793-a17a-87e0cc167777))
+    (pin "1" (uuid 122187b4-486f-46ae-a15b-0e9741f695cd))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3138,8 +3138,8 @@
     (property "Datasheet" "~" (at 233.68 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ea1e41cc-deb4-4b3e-bc28-86f9ba6dac8b))
-    (pin "2" (uuid f49918dd-562b-4c3f-b5d2-31f1d7397714))
+    (pin "1" (uuid f27ac7d0-d8bc-4fb8-b41c-7f0f0b6579db))
+    (pin "2" (uuid a1c0d3f8-f978-4f6c-a7e6-1d843d1a75e2))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3167,8 +3167,8 @@
     (property "Datasheet" "~" (at 156.21 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a19362e9-e495-4c69-bf74-49c7afef00d8))
-    (pin "2" (uuid 3f0c64d7-ecca-4cc0-af90-82ea8b20d0f4))
+    (pin "1" (uuid bac7a951-cc3a-411b-b460-d5ba384efc4f))
+    (pin "2" (uuid 26c7a0e0-aefd-4cbe-af2f-66f7bf39c703))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3196,8 +3196,8 @@
     (property "Datasheet" "~" (at 177.8 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db37431c-fd28-4a36-865c-160447dc0c1f))
-    (pin "2" (uuid b22d45f4-c219-49b4-ada0-65dc8cf1d3b8))
+    (pin "1" (uuid 3252fc6b-9908-473c-bdee-8f60da0c9532))
+    (pin "2" (uuid e11bf054-11d4-430d-b502-1ee723dd0576))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3225,7 +3225,7 @@
     (property "Datasheet" "" (at 177.8 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 40b35991-30ea-4930-9c4d-7327dab843fb))
+    (pin "1" (uuid ee86b926-caa7-4dff-bfe1-5ae467ade38b))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3253,8 +3253,8 @@
     (property "Datasheet" "~" (at 165.1 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f40808cf-5c28-4811-aac8-051d37db256e))
-    (pin "2" (uuid 8791d461-eb6e-47b8-b364-e47018ae77f2))
+    (pin "1" (uuid 5e4fa60c-7f15-4814-9fa8-b258a14423dc))
+    (pin "2" (uuid c44b64fc-f02b-4f30-b056-93798f17f1aa))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3282,8 +3282,8 @@
     (property "Datasheet" "~" (at 177.8 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 09aaea27-2ba5-45d5-9668-ec7615628d72))
-    (pin "2" (uuid fc308566-3e45-457e-bc51-d1dac9f50efa))
+    (pin "1" (uuid 8be2cd4d-670d-4ba8-a779-d9bf1ea21885))
+    (pin "2" (uuid 379d5e4e-33b6-4032-894e-0fac836a77ed))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3311,8 +3311,8 @@
     (property "Datasheet" "~" (at 152.4 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c9d31864-4e31-4d4c-a372-63ef86870056))
-    (pin "2" (uuid 7f282b0b-8094-4241-9047-6160fdce557a))
+    (pin "1" (uuid 6455a3bf-1d3c-4094-a738-602db4d4e660))
+    (pin "2" (uuid 814b7d2a-cb08-458f-a197-8f76cc51b45d))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3340,8 +3340,8 @@
     (property "Datasheet" "~" (at 69.85 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf9aff5c-98ff-4985-8561-492f29ed5406))
-    (pin "2" (uuid a1a50499-f67c-4030-9f27-cd67641ed037))
+    (pin "1" (uuid 1d0e19b9-6cc4-473a-896c-24138f301702))
+    (pin "2" (uuid d4a2b0c9-9f92-487e-b891-5f911c9744f8))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3369,8 +3369,8 @@
     (property "Datasheet" "~" (at 158.75 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f3eab3d0-9636-4c27-94e7-5fa0e33b69aa))
-    (pin "2" (uuid 8de9f415-e68f-48d4-bc04-00a9ff9f326a))
+    (pin "1" (uuid a5b42bfc-a593-4a25-bff7-10deb8fd1569))
+    (pin "2" (uuid 5edc6f9d-38ff-44e7-ae3b-6c64fd62270f))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3398,8 +3398,8 @@
     (property "Datasheet" "~" (at 69.85 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7086ad29-815c-4e4e-8c17-37aeb59a9978))
-    (pin "2" (uuid bb14cb2b-e5e5-4f3b-ad0e-bdbd03cdd5ef))
+    (pin "1" (uuid f32fdf64-aa19-4fbe-a320-69c489f53a71))
+    (pin "2" (uuid f173caed-1def-4318-9751-c8b7a5b7648e))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3427,8 +3427,8 @@
     (property "Datasheet" "~" (at 69.85 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 13d2c011-de50-4c1c-a323-a0bc15d197be))
-    (pin "2" (uuid 9a3e0513-c8ed-4a14-8fa6-a381ca4675a1))
+    (pin "1" (uuid a8892452-2ea0-47c9-87bf-e6472208b9c7))
+    (pin "2" (uuid 57ce152f-f7e5-440b-9541-bed7a389d74a))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3456,7 +3456,7 @@
     (property "Datasheet" "~" (at 105.41 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 19cf6524-8279-4788-ac4f-35077551e2d3))
+    (pin "1" (uuid d199ab4b-b92e-44d8-93ef-94bc37bbe796))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3484,8 +3484,8 @@
     (property "Datasheet" "~" (at 233.68 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b75c99f9-3e77-47da-bda1-c6da486d0fa7))
-    (pin "2" (uuid 87cc25e3-a5cf-4ed0-8613-627bf29d1698))
+    (pin "1" (uuid 2c305433-e1f4-4450-96de-325ea57973f3))
+    (pin "2" (uuid 57ee403b-6a22-4d30-87ec-410853262de8))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3513,8 +3513,8 @@
     (property "Datasheet" "~" (at 139.7 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 628adf82-99ca-4f45-8b54-3807bb914a81))
-    (pin "2" (uuid 09e7de46-c7b0-4ef6-9fd8-6d3a7360e04b))
+    (pin "1" (uuid a030e644-2011-4092-9de6-4aef80fa4e5a))
+    (pin "2" (uuid 4cdf6f29-d88e-4a1d-b6ce-6d9786d5451a))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3542,8 +3542,8 @@
     (property "Datasheet" "~" (at 95.25 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b337861e-bdea-4897-b55c-156ca27cf693))
-    (pin "2" (uuid 5e3e0b08-fff3-436f-a8bf-a4a4d6a3e2ce))
+    (pin "1" (uuid ead3420f-586d-490c-a410-a5d78e9f7c99))
+    (pin "2" (uuid 4125aba1-67af-4627-bb8d-c5f2cc986503))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3571,7 +3571,7 @@
     (property "Datasheet" "~" (at 214.63 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9c32ee6d-39b5-4621-b896-43da7591d487))
+    (pin "1" (uuid 2acb9184-190c-4262-8bc5-adeb3c09a593))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3599,8 +3599,8 @@
     (property "Datasheet" "~" (at 233.68 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 70745892-4bcc-4d04-b8ba-0caceefa4515))
-    (pin "2" (uuid 7cab14ef-010d-48ab-8154-aae2f7b74f8a))
+    (pin "1" (uuid bd5cdee6-0faa-47d8-9f5f-6fe631111f09))
+    (pin "2" (uuid 3bb283cf-1d52-4081-99e1-4721f2634891))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3628,7 +3628,7 @@
     (property "Datasheet" "" (at 209.55 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 77a042d6-5f18-4c97-9b39-b97b2283370b))
+    (pin "1" (uuid 584b3777-e8ae-4bb3-81bb-c2a73da8f987))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3656,8 +3656,8 @@
     (property "Datasheet" "~" (at 69.85 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63896f38-d3dd-4fba-ab56-19b84d4c9c44))
-    (pin "2" (uuid 5b31c4a3-c5ba-453e-a900-4a0ebb62d9b1))
+    (pin "1" (uuid b5aea38a-a0d7-496c-9178-fa341b01ad26))
+    (pin "2" (uuid e888e0f0-ce75-4b5c-af11-c6887c922820))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3685,8 +3685,8 @@
     (property "Datasheet" "~" (at 69.85 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 32e9e902-3e2f-42fd-95bc-b5980c469b9d))
-    (pin "2" (uuid 4fd9549e-96c8-419e-8cd9-f7b9ade2b86d))
+    (pin "1" (uuid 3f25e88e-6b3b-4839-af94-302157675656))
+    (pin "2" (uuid 3b529d5a-1996-406d-b02c-76c2715038a7))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3714,8 +3714,8 @@
     (property "Datasheet" "~" (at 69.85 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dba86b5f-883e-4dae-a17c-8476f4531890))
-    (pin "2" (uuid 58fc2994-2643-4ffc-b01a-d230d8e935a2))
+    (pin "1" (uuid 61dc9754-acf6-4120-8ea6-1de59a2b5cc1))
+    (pin "2" (uuid 33c86970-a63a-4c6c-bbec-e4055aa89546))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3743,8 +3743,8 @@
     (property "Datasheet" "~" (at 52.07 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9b844dd2-7f18-4d4b-a6bd-3d4cc2c252c9))
-    (pin "2" (uuid dd5981c9-c28f-46ce-a870-1a644ea502ed))
+    (pin "1" (uuid 54326cad-765b-4d7f-8ec3-ee200bd1b20c))
+    (pin "2" (uuid 3bc0bcc5-769a-49ff-b9d4-773bc35a748f))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3772,8 +3772,8 @@
     (property "Datasheet" "~" (at 114.3 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3e0b9200-2377-4c6f-b790-3edc1c245257))
-    (pin "2" (uuid a6e1011b-d421-49d7-bff6-eea9328a3181))
+    (pin "1" (uuid b1e84f67-0088-4cbd-ac5c-b190152e3111))
+    (pin "2" (uuid 769b85ee-8789-411e-9a1c-d5ada2eefcf1))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3801,8 +3801,8 @@
     (property "Datasheet" "~" (at 184.15 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc26f55c-65d4-4d87-9bca-bbaf76fa6f4e))
-    (pin "2" (uuid 1379cdfc-09e8-48cb-8a3c-948a19a9fcd7))
+    (pin "1" (uuid cd7e398a-0d8b-4348-aab1-9974f47d69ed))
+    (pin "2" (uuid 8e851b6a-9ecd-46e8-a484-f7b209240263))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3830,8 +3830,8 @@
     (property "Datasheet" "~" (at 69.85 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aed3813e-9c6d-4a54-93f5-95756a5aab37))
-    (pin "2" (uuid 3f4a0994-81f3-4a3b-959e-a50739dcab90))
+    (pin "1" (uuid 82662dc3-7593-4c40-ac28-2ad58e4b3af0))
+    (pin "2" (uuid 2aff3887-d042-4be3-be43-307790d8692b))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3859,7 +3859,7 @@
     (property "Datasheet" "" (at 165.1 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 54b8c2c6-3356-4f92-95e0-7d5f211582c4))
+    (pin "1" (uuid fa56926a-d8f4-47a2-aabe-2c4cb45b0b66))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3887,8 +3887,8 @@
     (property "Datasheet" "~" (at 69.85 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5143ddf0-78e3-4263-8496-42477359bb94))
-    (pin "2" (uuid ea85b23b-285b-42d0-91c4-21f96d5b22e0))
+    (pin "1" (uuid f3e3eccf-e41d-4816-b919-218115d10629))
+    (pin "2" (uuid a0d8bed1-b283-4524-a884-88b2dc52672d))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3916,7 +3916,7 @@
     (property "Datasheet" "~" (at 125.73 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bae00dc4-0dea-4bab-9589-dd4d8d92a006))
+    (pin "1" (uuid c99807e0-c67b-47b6-810b-4b88fe0a1027))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3944,7 +3944,7 @@
     (property "Datasheet" "" (at 95.25 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b9c75a82-2a17-4cc1-b574-f41c9bff951e))
+    (pin "1" (uuid 1928c342-7672-4528-a07e-3ebc28fb5700))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -3972,8 +3972,8 @@
     (property "Datasheet" "~" (at 100.33 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f75b609f-2532-4439-91eb-683cc548616e))
-    (pin "2" (uuid 3ca6b896-efdf-49d3-a027-2f0c9e021b4c))
+    (pin "1" (uuid 1df6c629-c463-4492-bc2a-84da8dfb1de4))
+    (pin "2" (uuid c4d532e2-8c14-41c4-94de-993deb5e1eda))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -4001,31 +4001,31 @@
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf" (at 120.65 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1bef1068-6662-4754-8951-c7377f373da1))
-    (pin "10" (uuid 3da09c2a-1b3c-472b-adda-68a2a4a3b6ca))
-    (pin "11" (uuid 7241473f-c2cd-4730-b42f-f12870ec4ed2))
-    (pin "12" (uuid 153a3ef7-e172-4a35-a70f-20b190144bca))
-    (pin "13" (uuid e604eacf-a7d3-45e4-acc0-6b8317857f34))
-    (pin "14" (uuid 12fc361a-3fdd-46c0-b74b-bfa3a8f0469e))
-    (pin "15" (uuid c12a0531-f280-4d86-90df-46aed0c1ebc6))
-    (pin "16" (uuid 4124d2e4-fc6d-46eb-aa7d-be96b8707239))
-    (pin "17" (uuid 1dd95425-242b-4745-bb79-1fb2be9cff9e))
-    (pin "18" (uuid 3dfdf101-4953-41dc-be0d-fdfa5ab46b3b))
-    (pin "19" (uuid 19b768e7-7c3f-41ff-8abe-721414e0b978))
-    (pin "2" (uuid 71c79902-9d88-4b3e-a702-edb2434e5fe6))
-    (pin "20" (uuid 17a6bd71-95a9-4867-a317-f24f1debc669))
-    (pin "21" (uuid 7bda3e01-a8fe-4ff2-9d65-4d264a161f29))
-    (pin "22" (uuid 46e2ea3a-77f0-44aa-85e7-5d6c7e9e1745))
-    (pin "23" (uuid c1fbdb7f-4c29-4a7d-8dfe-2be839d0e52e))
-    (pin "24" (uuid c4f55724-98f8-4130-8510-52864b7f0b17))
-    (pin "25" (uuid ce00ed87-791b-4208-96aa-6884fb895223))
-    (pin "3" (uuid 62a2199a-b69e-4056-be66-8c93381fce9a))
-    (pin "4" (uuid 029b9938-65df-4b68-ac6a-981931761442))
-    (pin "5" (uuid 32bc81c8-daeb-4625-ae4b-dde07de2442c))
-    (pin "6" (uuid 08936492-4b8c-4c3f-9fc0-d8f70c02b92c))
-    (pin "7" (uuid b6e8dc6c-48d3-4a6b-8097-5c448e7c4041))
-    (pin "8" (uuid 1dfbdfb1-e8a3-48e6-9f56-5d17737763d4))
-    (pin "9" (uuid a0255aee-0e03-4b11-b23b-033e28d80c34))
+    (pin "1" (uuid 8924e95e-b0c9-4efc-bc18-46425b4df36e))
+    (pin "10" (uuid 8bf4adb4-aad6-4cb7-9c86-7476384cdd76))
+    (pin "11" (uuid 24f87e97-86a4-4bd0-8b20-bc8081132065))
+    (pin "12" (uuid 07668984-80db-4436-a78b-b97dae17fb54))
+    (pin "13" (uuid eb53758d-037d-4070-87af-f6807aca90b4))
+    (pin "14" (uuid c4ea8ce8-8792-4a85-aa5a-e555ffba3336))
+    (pin "15" (uuid 6abdaf65-fe81-4927-ba43-1c0999bdf531))
+    (pin "16" (uuid 4ceac843-b78d-4ad9-8fe2-8ebe0f0deced))
+    (pin "17" (uuid 7bfff15e-f621-44ca-ac8c-534b2e128c48))
+    (pin "18" (uuid 0d6f6165-face-4b4c-a16b-2bdd6d7d41b6))
+    (pin "19" (uuid f59487f1-95cc-485b-878d-c47122cbc9a7))
+    (pin "2" (uuid c6441625-3c4d-42d8-a144-91f4c281365f))
+    (pin "20" (uuid bc480f67-7275-4621-b459-e943ff35bfcf))
+    (pin "21" (uuid d6e78335-987e-4b26-b1dd-f15b3bc48ad1))
+    (pin "22" (uuid 70dbb1a4-5264-4faa-b046-41865e5342c4))
+    (pin "23" (uuid 6d0521ce-1bfb-465a-aa68-bb22e40da9ad))
+    (pin "24" (uuid ec8ca76e-a1ab-46bb-ad15-ee48c5d2b0d3))
+    (pin "25" (uuid 5bfc57ca-eafe-4e35-9ad3-9d8b6aeb79f8))
+    (pin "3" (uuid c4c81dbd-0b87-4ec7-a329-fbc127187130))
+    (pin "4" (uuid afe9d7ca-009f-4ed3-bed9-5fc49fb72e54))
+    (pin "5" (uuid 1571155c-6a73-44a1-a0ec-d4293b87d3af))
+    (pin "6" (uuid 3f9bd841-31bc-4ec1-82bc-c99c2790c0a5))
+    (pin "7" (uuid cc894977-cd30-4f15-b5c1-6cb09227fe7d))
+    (pin "8" (uuid 3bfa6cda-24d8-4703-bbd3-606ec1ca930e))
+    (pin "9" (uuid 9ca33386-171a-4d52-8067-5573b0fb4304))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -4053,8 +4053,8 @@
     (property "Datasheet" "~" (at 171.45 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 865d52d8-d4ad-4fff-bf50-a1d602df2897))
-    (pin "2" (uuid 6279c373-c87f-4854-b7d6-a9829e4bf12d))
+    (pin "1" (uuid 31030e33-d818-40d2-b09f-a1db2fd3a387))
+    (pin "2" (uuid 8751cb24-ac7b-444f-abe6-6dc4500c69b9))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
@@ -4082,8 +4082,8 @@
     (property "Datasheet" "~" (at 196.85 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid abe29da0-9633-4a59-93fa-e62605ec18b5))
-    (pin "2" (uuid c1e79429-8671-4458-952d-eeb9b4411c87))
+    (pin "1" (uuid 21dd0992-ce34-4108-8c30-51f88bb3ef9e))
+    (pin "2" (uuid 9ee5e242-8f5e-4462-b100-cffe3b88084f))
     (instances
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"

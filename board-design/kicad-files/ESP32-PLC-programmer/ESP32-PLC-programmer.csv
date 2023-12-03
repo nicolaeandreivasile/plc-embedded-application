@@ -9,6 +9,7 @@ C9,9pF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/data
 C10,10uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf,C1608X5R0J106K080AB,TDK,$0.22,$0.22,https://ro.mouser.com/ProductDetail/TDK/C1608X5R0J106K080AB?qs=NRhsANhppD9O7AAk61oBsw%3D%3D,1
 C11,22uF/16V/20%/4.3x4.3mm,Capacitor_SMD:CP_Elec_4x5.4,https://ro.mouser.com/datasheet/2/88/SML-2944694.pdf,"
 226SML016MD4",CDE / Illinois Capacitor,$0.40,$0.22,https://ro.mouser.com/ProductDetail/CDE-Illinois-Capacitor/226SML016MD4?qs=sGAEpiMZZMvwFf0viD3Y3TMnxRwPJuf75Aorj7iz5MLScYuZ9Dnhrg%3D%3D,1
+D3,30V/2A/0.7V (RB068LAM-30TFTR),Diode_SMD:D_SOD-128,https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb068lam-30tftr-e.pdf,RB068LAM-30TFTR,ROHM Semiconductor,$0.47,$0.47,https://ro.mouser.com/ProductDetail/ROHM-Semiconductor/RB068LAM-30TFTR?qs=HXFqYaX1Q2yScqfsiXVVcw%3D%3D,1
 "D1, D2",LED,LED_SMD:LED_0805_2012Metric,https://docs.broadcom.com/docs/HSMH-H170-Mono-Color-Top-Mount-ChipLED-DS,"
 HSMH-H170",Broadcom / Avago,$0.50,$1.00,https://ro.mouser.com/ProductDetail/Broadcom-Avago/HSMH-H170?qs=Li%252BoUPsLEns3UdNxsKqV%252Bg%3D%3D,2
 F1,SMD050F-2,Fuse:Fuse_2920_7451Metric,https://www.littelfuse.com/media?resourcetype=datasheets&itemid=e664881a-0c68-4836-928b-7ed2f0c2a6da&filename=littelfuse-ptc-smd-datasheet,SMD050F-2,Littelfuse Inc.,$0.50,$0.50,https://www.digikey.ro/ro/products/detail/littelfuse-inc/SMD050F-2/1045899,1
@@ -26,4 +27,4 @@ RV1,V5.5MLA0603N,Resistor_SMD:R_0603_1608Metric,https://www.littelfuse.com/media
 U1,TPS62060DSGR,Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias,https://www.ti.com/lit/ds/symlink/tps62060.pdf,TPS62060DSGR,Texas Instruments,$2.05,$2.05,https://www.digikey.ro/ro/products/detail/texas-instruments/TPS62060DSGR/2353738?s=N4IgTCBcDaICoAUDKA2MAGF6AiSDiASiALoC%2BQA,1
 U2,FT231XS,Package_SO:SSOP-20_3.9x8.7mm_P0.635mm,https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf,FT231XS-R,"FTDI, Future Technology Devices International Ltd.",$2.35,$2.35,https://www.digikey.ro/ro/products/detail/ftdi-future-technology-devices-international-ltd/FT231XS-R/3029139,1
 ,,,,,,,,,
-Total:,,,,,,,$12.54,,
+Total:,,,,,,,0,,
