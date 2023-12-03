@@ -3,12 +3,13 @@ Reference,Value,Footprint,Datasheet,MPN,Manufacturer,Price,Total Price,Purchase 
 "C2, C3",47pF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/40/C0GNP0_Dielectric-2952720.pdf,06036A470KAT2A,KYOCERA AVX,$0.12,$0.24,https://ro.mouser.com/ProductDetail/KYOCERA-AVX/06036A470KAT2A?qs=%2F194MHvTOEAOmE159kWjfA%3D%3D,2
 C4,4.7uF/16V/20%/4.3x4.3mm,Capacitor_SMD:CP_Elec_4x5.4,https://ro.mouser.com/datasheet/2/293/e_uuq-3082333.pdf,"
 UUQ1E4R7MCL1GB",Nichicon,$0.41,$0.41,https://ro.mouser.com/ProductDetail/Nichicon/UUQ1E4R7MCL1GB?qs=sGAEpiMZZMvwFf0viD3Y3Z9EcCqAlkqAYb27T95U8F4%3D,1
-"C6, C8",0.1uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf,C0603C104K9RACTU,KEMET,$0.10,$0.20,https://ro.mouser.com/ProductDetail/KEMET/C0603C104K9RACTU?qs=7q2aiX3GdliuPZzPpldOsA%3D%3D,2
-C7,10uF/16V/20%/4.3x4.3mm,Capacitor_SMD:CP_Elec_4x5.4,https://ro.mouser.com/datasheet/2/293/e_uwp-2943374.pdf,UWP1A100MCL1GB,Nichicon,$0.57,$0.57,https://ro.mouser.com/ProductDetail/Nichicon/UWP1A100MCL1GB?qs=sGAEpiMZZMvwFf0viD3Y3Qai38GTLLzN5dgYBaJGdP4%3D,1
-C9,9pF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/281/1/GRM1555C1E9R0CA01_01A-1982629.pdf,GRM1555C1E9R0CA01D,Murata Electronics,$0.10,$0.10,https://ro.mouser.com/ProductDetail/Murata-Electronics/GRM1555C1E9R0CA01D?qs=ouTquLLW2S57vCsqfIqa8Q%3D%3D,1
-C10,10uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf,C1608X5R0J106K080AB,TDK,$0.22,$0.22,https://ro.mouser.com/ProductDetail/TDK/C1608X5R0J106K080AB?qs=NRhsANhppD9O7AAk61oBsw%3D%3D,1
-C11,22uF/16V/20%/4.3x4.3mm,Capacitor_SMD:CP_Elec_4x5.4,https://ro.mouser.com/datasheet/2/88/SML-2944694.pdf,"
-226SML016MD4",CDE / Illinois Capacitor,$0.40,$0.22,https://ro.mouser.com/ProductDetail/CDE-Illinois-Capacitor/226SML016MD4?qs=sGAEpiMZZMvwFf0viD3Y3TMnxRwPJuf75Aorj7iz5MLScYuZ9Dnhrg%3D%3D,1
+"C6, C8",0.1uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/40/X7RDielectric-2943470.pdf,06036C104MAZ2A,KYOCERA AVX,$0.43,$0.86,https://ro.mouser.com/ProductDetail/KYOCERA-AVX/06036C104MAZ2A?qs=9g9l2Gjnh0s%2FYval7p6%252B1g%3D%3D,2
+C7,10uF/16V/20%/4.3x4.3mm,Capacitor_SMD:CP_Elec_4x5.4,https://ro.mouser.com/datasheet/2/293/e_uuq-3082333.pdf,"
+UUQ1C100MCL1GB",Nichicon,$0.46,$0.46,https://ro.mouser.com/ProductDetail/Nichicon/UUQ1C100MCL1GB?qs=U1PqRs5SEBtT2gcIOUN8aA%3D%3D,1
+C9,9pF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/40/C0GNP0_Dielectric-2952720.pdf,"
+06035A9R0CAT4A",KYOCERA AVX,$0.19,$0.19,https://ro.mouser.com/ProductDetail/KYOCERA-AVX/06035A9R0CAT4A?qs=EbDiPP9peV8aZb8uzphn6g%3D%3D,1
+C10,10uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf,06036D106MAT2A,KYOCERA AVX,$0.15,$0.15,https://ro.mouser.com/ProductDetail/KYOCERA-AVX/06036D106MAT2A?qs=SnLCPPi%2FUkQWQ97wPZ%2F8XA%3D%3D,1
+C11,22uF/16V/20%/4.3x4.3mm,Capacitor_SMD:CP_Elec_4x5.4,https://ro.mouser.com/datasheet/2/88/SML-2944694.pdf,226SML016MD4,CDE / Illinois Capacitor,$0.40,$0.40,https://ro.mouser.com/ProductDetail/CDE-Illinois-Capacitor/226SML016MD4?qs=sGAEpiMZZMvwFf0viD3Y3TMnxRwPJuf75Aorj7iz5MLScYuZ9Dnhrg%3D%3D,1
 D3,30V/2A/0.7V (RB068LAM-30TFTR),Diode_SMD:D_SOD-128,https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb068lam-30tftr-e.pdf,RB068LAM-30TFTR,ROHM Semiconductor,$0.47,$0.47,https://ro.mouser.com/ProductDetail/ROHM-Semiconductor/RB068LAM-30TFTR?qs=HXFqYaX1Q2yScqfsiXVVcw%3D%3D,1
 "D1, D2",LED,LED_SMD:LED_0805_2012Metric,https://docs.broadcom.com/docs/HSMH-H170-Mono-Color-Top-Mount-ChipLED-DS,"
 HSMH-H170",Broadcom / Avago,$0.50,$1.00,https://ro.mouser.com/ProductDetail/Broadcom-Avago/HSMH-H170?qs=Li%252BoUPsLEns3UdNxsKqV%252Bg%3D%3D,2
@@ -17,14 +18,13 @@ F1,SMD050F-2,Fuse:Fuse_2920_7451Metric,https://www.littelfuse.com/media?resource
 J2,473460001,digikey-footprints:USB_Micro_B_Female_0473460001,https://www.molex.com/pdm_docs/sd/473460001_sd.pdf,473460001,Molex,$1.20,$1.20,https://www.digikey.ro/ro/products/detail/molex/0473460001/1782470?s=N4IgTCBcDaICwHYDMcBsAGTBGEBdAvkA,1
 JP1,SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,~,~,~,$0.00,$0.00,~,1
 L1,1uH/L1210,Inductor_SMD:L_1210_3225Metric,https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0032.pdf,LQM32PN1R0MG0L,Murata Electronics,$0.90,$0.90,https://www.digikey.ro/ro/products/detail/murata-electronics/LQM32PN1R0MG0L/4359817,1
-"R1, R2",27R/R0603,Resistor_SMD:R_0603_1608Metric,https://ro.mouser.com/datasheet/2/315/Panasonic_Resistors_Thick_Film_Anti_Sulf_Anti_Surg-1825099.pdf,ERJ-UP3F27R0V,Panasonic,$0.21,$0.42,https://ro.mouser.com/ProductDetail/Panasonic/ERJ-UP3F27R0V?qs=sGAEpiMZZMvdGkrng054twKDKoBh%252Bscn2ymF%2F3bNd65vyRmuQNi4IA%3D%3D,2
+"R1, R2",27R/R0603,Resistor_SMD:R_0603_1608Metric,https://www.vishay.com/docs/20043/crcwhpe3.pdf,CRCW060327R0FKEAHP,Vishay / Dale,$0.14,$0.28,https://ro.mouser.com/ProductDetail/Vishay-Dale/CRCW060327R0FKEAHP?qs=sGAEpiMZZMvdGkrng054t8qEM845SiQZ81vBQ964vAQ%3D,2
 R3,810K/R0603,Resistor_SMD:R_0603_1608Metric,https://www.vishay.com/docs/20035/dcrcwe3.pdf,"
 CRCW0603806KFKEA",Vishay / Dale,$0.10,$0.10,https://ro.mouser.com/ProductDetail/Vishay-Dale/CRCW0603806KFKEA?qs=sGAEpiMZZMvdGkrng054tw79ugaueG8Bzy1wubg4nFg%3D,1
-R4,180K/R0603,Resistor_SMD:R_0603_1608Metric,https://ro.mouser.com/datasheet/2/348/sdr_e-3009658.pdf,SDR03EZPD1803,ROHM Semiconductor,$0.22,$0.22,https://ro.mouser.com/ProductDetail/ROHM-Semiconductor/SDR03EZPD1803?qs=sGAEpiMZZMvdGkrng054t2cqbZCzJY7N9caBtHzOMxNBto6VNAQwcw%3D%3D,1
-"R5, R6",330R/R0603,Resistor_SMD:R_0603_1608Metric,https://ro.mouser.com/datasheet/2/348/sdr_e-3009658.pdf,"
-SDR03EZPD3300",ROHM Semiconductor,$0.22,$0.44,https://ro.mouser.com/ProductDetail/ROHM-Semiconductor/SDR03EZPD3300?qs=sGAEpiMZZMvdGkrng054t2cqbZCzJY7NHxg7tGV35s1tuwKH3BiWnQ%3D%3D,2
+R4,180K/R0603,Resistor_SMD:R_0603_1608Metric,https://ro.mouser.com/datasheet/2/348/sdr_e-3009658.pdf,TNPW0603180KBEEA,Vishay / Dale,$0.57,$0.57,https://ro.mouser.com/ProductDetail/Vishay-Dale/TNPW0603180KBEEA?qs=sGAEpiMZZMvdGkrng054t8nP1M%252BdxxzUUB%2FdLvLnc4s%3D,1
+"R5, R6",330R/R0603,Resistor_SMD:R_0603_1608Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,TNPW0603330RBEEA,Vishay / Dale,$0.57,$1.14,https://ro.mouser.com/ProductDetail/Vishay-Dale/TNPW0603330RBEEA?qs=sGAEpiMZZMvdGkrng054t1txRVFnX3f6eUA89IfumEs%3D,2
 RV1,V5.5MLA0603N,Resistor_SMD:R_0603_1608Metric,https://www.littelfuse.com/media?resourcetype=datasheets&itemid=7092c93f-7453-48dd-8345-d10368b54a20&filename=littelfuse-varistor-mla-datasheet,V5.5MLA0603NH,Littelfuse Inc.,$0.50,$0.50,https://www.digikey.ro/ro/products/detail/littelfuse-inc/V5-5MLA0603NH/486162,1
 U1,TPS62060DSGR,Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias,https://www.ti.com/lit/ds/symlink/tps62060.pdf,TPS62060DSGR,Texas Instruments,$2.05,$2.05,https://www.digikey.ro/ro/products/detail/texas-instruments/TPS62060DSGR/2353738?s=N4IgTCBcDaICoAUDKA2MAGF6AiSDiASiALoC%2BQA,1
 U2,FT231XS,Package_SO:SSOP-20_3.9x8.7mm_P0.635mm,https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf,FT231XS-R,"FTDI, Future Technology Devices International Ltd.",$2.35,$2.35,https://www.digikey.ro/ro/products/detail/ftdi-future-technology-devices-international-ltd/FT231XS-R/3029139,1
 ,,,,,,,,,
-Total:,,,,,,,0,,
+Total,,,,,,,$14.67,,

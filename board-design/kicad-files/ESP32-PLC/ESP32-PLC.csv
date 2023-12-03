@@ -1,34 +1,39 @@
 Reference,Value,Footprint,Datasheet,MPN,Manufacturer,Price,Total Price,Purchase Link,Qty
-"C1, C8, C14, C17, C20",22uF/16V/20%/4.3x4.3mm,Capacitor_SMD:CP_Elec_4x5.4,https://ro.mouser.com/datasheet/2/88/SML-2944694.pdf,226SML016MD4,CDE / Illinois Capacitor,$0.40,$2.00,,5
-"C2, C6, C16, C19, C23",0.1uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf,C0603C104K9RACTU,KEMET,$0.10,0.5,https://ro.mouser.com/ProductDetail/KEMET/C0603C104K9RACTU?qs=7q2aiX3GdliuPZzPpldOsA%3D%3D,5
-"C3, C5, C24",22uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,~,,,,0,,3
-"C4, C7, C12, C15, C18, C21",1uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,~,,,,0,,6
-"C9, C10",25pF/6.3V/10%/C0603,Capacitor_SMD:C_0603_1608Metric,~,,,,0,,2
-C11,1nF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,~,,,,0,,1
-"C13, C22",470pF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,~,,,,0,,2
-H1-H4,MountingHole,MountingHole:MountingHole_2.5mm_Pad_Via,~,,,,0,,4
-J1,640456-3,digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English,640456-3,TE Connectivity AMP Connectors,,0,,1
-J2,Conn_ARM_JTAG_SWD_10,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf,,,,0,,1
-"J3, J4",302-S101,Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical,http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf,302-S101,On Shore Technology Inc.,$0.33,0,https://www.digikey.ro/ro/products/detail/on-shore-technology-inc/302-S101/2178422?s=N4IgTCBcDaIMwAYwFoDKBGB6QF0C%2BQA,2
-J5,RJ45_Wuerth_7499010121A,Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal,http://katalog.we-online.de/pbs/datasheet/7499010121A.pdf,,,,0,,1
-JP1,SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,~,,,,0,,1
-JP2-JP5,SolderJumper_3_Open,Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,~,,,,0,,4
-L1-L3,FB0805/600R/2A,Inductor_SMD:L_0805_2012Metric,~,,,,0,,3
-"Q1, Q2",BC817,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pub/Collateral/BC818-D.pdf,,,,0,,2
-"R1, R9-R15, R19-R22, R31",0R(board_mounted),Resistor_SMD:R_0402_1005Metric,~,,,,0,,13
-"R2, R4, R5",100K/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,3
-"R3, R6-R8, R23, R25, R34",10K/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,7
-R16-R18,10R/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,3
-R24,1K/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,1
-R26,12.1K/1%/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,1
-R27-R30,49.9R/1%/R0603,Resistor_SMD:R_0603_1608Metric,~,,,,0,,4
-"R32, R33",330R/R0603,Resistor_SMD:R_0603_1608Metric,https://ro.mouser.com/datasheet/2/348/sdr_e-3009658.pdf,"
-SDR03EZPD3300",ROHM Semiconductor,$0.22,0,https://ro.mouser.com/ProductDetail/ROHM-Semiconductor/SDR03EZPD3300?qs=sGAEpiMZZMvdGkrng054t2cqbZCzJY7NHxg7tGV35s1tuwKH3BiWnQ%3D%3D,2
-RV1,V5.5MLA0603N,Resistor_SMD:R_0603_1608Metric,~,,,,0,,1
-"S1, S2",1825910-6,Button_Switch_SMD:SW_MEC_5GSH9,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English,1825910-6,TE Connectivity ALCOSWITCH Switches,,0,,2
-U1,BD48ExxG,Package_TO_SOT_SMD:SOT-23-5,https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e,,,,0,,1
-U2,ESP32-WROVER-E,Espressif:ESP32-WROVER-E,https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf,,,,0,,1
-U3,LAN8720A,Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias,http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf,,,,0,,1
-Y1,Q25MHz/20ppm/3.2x2.5mm (FL2500213Z),Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,~,,,,0,,1
+"C1, C8, C14, C17, C20",22uF/16V/20%/4.3x4.3mm,Capacitor_SMD:CP_Elec_4x5.4,https://ro.mouser.com/datasheet/2/88/SML-2944694.pdf,226SML016MD4,CDE / Illinois Capacitor,$0.40,$2.00,https://ro.mouser.com/ProductDetail/CDE-Illinois-Capacitor/226SML016MD4?qs=sGAEpiMZZMvwFf0viD3Y3TMnxRwPJuf75Aorj7iz5MLScYuZ9Dnhrg%3D%3D,5
+"C2, C6, C16, C19, C23",0.1uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/40/X7RDielectric-2943470.pdf,06036C104MAZ2A,KYOCERA AVX,$0.43,$2.15,https://ro.mouser.com/ProductDetail/KYOCERA-AVX/06036C104MAZ2A?qs=9g9l2Gjnh0s%2FYval7p6%252B1g%3D%3D,5
+"C3, C5, C24",22uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf,06036D226MAT2A,KYOCERA AVX,$0.35,$1.05,https://ro.mouser.com/ProductDetail/KYOCERA-AVX/06036D226MAT2A?qs=XLNwXgtzMM8CXSRFI2j4%2FQ%3D%3D,3
+"C4, C7, C12, C15, C18, C21",1uF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf,"
+06036C105MAT2A",KYOCERA AVX,$0.23,$1.38,https://ro.mouser.com/ProductDetail/KYOCERA-AVX/06036C105MAT2A?qs=1X9trZCrWl0x0jW7AUsrpw%3D%3D,6
+"C9, C10",25pF/6.3V/10%/C0603,Capacitor_SMD:C_0603_1608Metric,https://datasheets.kyocera-avx.com/C0GNP0-Dielectric.pdf,06035A250GAT2A,KYOCERA AVX,$0.35,$0.70,https://www.digikey.ro/ro/products/detail/kyocera-avx/06035A250GAT2A/1599738,2
+C11,1nF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf,06036C103MAT2A,KYOCERA AVX,$0.17,$0.17,https://ro.mouser.com/ProductDetail/KYOCERA-AVX/06036C103MAT2A?qs=oL5uk4n%2FG82DmuMKSKEuPw%3D%3D,1
+"C13, C22",470pF/6.3V/20%/C0603,Capacitor_SMD:C_0603_1608Metric,https://ro.mouser.com/datasheet/2/447/KEM_C1015_X7R_FF_CAP_SMD-3316532.pdf,"
+C0603Y471K9RACTU",KEMET,$0.38,$0.76,https://ro.mouser.com/ProductDetail/KEMET/C0603Y471K9RACTU?qs=rUPLZ6nenJPzo%2FZGoppmHQ%3D%3D,2
+H1-H4,MountingHole,MountingHole:MountingHole_2.5mm_Pad_Via,~,~,~,$0.00,$0.00,~,4
+J1,640456-3,digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English,640456-3,TE Connectivity AMP Connectors,$0.21,$0.21,https://www.digikey.ro/ro/products/detail/te-connectivity-amp-connectors/640456-3/259010,1
+J2,Conn_ARM_JTAG_SWD_10,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf,~,~,$0.00,$0.00,~,1
+"J3, J4",302-S101,Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical,http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf,302-S101,On Shore Technology Inc.,$0.33,$0.66,https://www.digikey.ro/ro/products/detail/on-shore-technology-inc/302-S101/2178422?s=N4IgTCBcDaIMwAYwFoDKBGB6QF0C%2BQA,2
+J5,RJ45_Wuerth_7499010121A,Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal,http://katalog.we-online.de/pbs/datasheet/7499010121A.pdf,7499010121A,Würth Elektronik,$6.71,$6.71,https://www.digikey.ro/ro/products/detail/w%C3%BCrth-elektronik/7499010121A/1639054?s=N4IgTCBcDaIOwBYCcSAMBGDZ0EEQF0BfIA,1
+JP1,SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,~,~,~,$0.00,$0.00,~,1
+JP2-JP5,SolderJumper_3_Open,Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,~,~,~,$0.00,$0.00,~,4
+L1-L3,FB0805/600R/2A,Inductor_SMD:L_0805_2012Metric,https://ro.mouser.com/datasheet/2/87/eaton_mfbm1v2012_high_current_multilayer_ferrite_c-1890685.pdf,MFBM1V2012-601-R,Coiltronics / Eaton,$0.10,$0.30,https://ro.mouser.com/ProductDetail/Coiltronics-Eaton/MFBM1V2012-601-R?qs=W%2FMpXkg%252BdQ7gLFLMl4028Q%3D%3D,3
+"Q1, Q2",BC817,Package_TO_SOT_SMD:SOT-23,https://ro.mouser.com/datasheet/2/345/bc817-2449263.pdf,BC817,Rectron,$0.24,$0.48,https://ro.mouser.com/ProductDetail/Rectron/BC817?qs=7pEAo90IqNG%2FF7QnbDH5iA%3D%3D,2
+"R1, R9-R15, R19-R22, R31",0R(board_mounted),Resistor_SMD:R_0402_1005Metric,https://www.vishay.com/docs/28773/crcwce3.pdf,CRCW04020000Z0EDC,Vishay / Dale,$0.10,$1.30,https://ro.mouser.com/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D,13
+"R2, R4, R5",100K/R0603,Resistor_SMD:R_0603_1608Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,"
+TNPW0603100KBEEN",Vishay / Dale,$0.69,$2.07,https://ro.mouser.com/ProductDetail/Vishay-Dale/TNPW0603100KBEEN?qs=sGAEpiMZZMvdGkrng054t3Tgh36vYfwuEgTg9EgFPu0%3D,3
+"R3, R6-R8, R23, R25, R34",10K/R0603,Resistor_SMD:R_0603_1608Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,"
+TNPW060310K0BEEA",Vishay / Dale,$0.57,$3.99,https://ro.mouser.com/ProductDetail/Vishay-Dale/TNPW060310K0BEEA?qs=sGAEpiMZZMvdGkrng054t1txRVFnX3f6Vo5Bv8ehY7g%3D,7
+R16-R18,10R/R0603,Resistor_SMD:R_0603_1608Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,"
+TNPW060310R0DEEA",Vishay / Dale,$0.45,$1.35,https://ro.mouser.com/ProductDetail/Vishay-Dale/TNPW060310R0DEEA?qs=sGAEpiMZZMvdGkrng054t5qWTXi%252BVUxhKNsfU%2F0gQhw%3D,3
+R24,1K/R0603,Resistor_SMD:R_0603_1608Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,TNPW06031K00BEEA,Vishay / Dale,$0.55,$0.55,https://ro.mouser.com/ProductDetail/Vishay-Dale/TNPW06031K00BEEA?qs=sGAEpiMZZMvdGkrng054t1txRVFnX3f68dKCzs1WQx0%3D,1
+R26,12.1K/1%/R0603,Resistor_SMD:R_0603_1608Metric,https://www.vishay.com/docs/20035/dcrcwe3.pdf,CRCW060312K1FKEA,Vishay / Dale,$0.10,$0.10,https://ro.mouser.com/ProductDetail/Vishay-Dale/CRCW060312K1FKEA?qs=sGAEpiMZZMvdGkrng054t%252B8cnVAnHPZk4v6J3dQiX64%3D,1
+R27-R30,49.9R/1%/R0603,Resistor_SMD:R_0603_1608Metric,https://www.vishay.com/docs/20035/dcrcwe3.pdf,CRCW060349R9FKEC,Vishay / Dale,$0.10,$0.40,https://ro.mouser.com/ProductDetail/Vishay-Dale/CRCW060349R9FKEC?qs=sGAEpiMZZMvdGkrng054t1VbmbR8V6nMuCkSQqo261U%3D,4
+"R32, R33",330R/R0603,Resistor_SMD:R_0603_1608Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,TNPW0603330RBEEA,Vishay / Dale,$0.57,$1.14,https://ro.mouser.com/ProductDetail/Vishay-Dale/TNPW0603330RBEEA?qs=sGAEpiMZZMvdGkrng054t1txRVFnX3f6eUA89IfumEs%3D,2
+RV1,V5.5MLA0603N,Resistor_SMD:R_0603_1608Metric,https://ro.mouser.com/datasheet/2/240/media-3321353.pdf,"
+V5.5MLA0603NH",Littelfuse,$0.41,$0.41,https://ro.mouser.com/ProductDetail/Littelfuse/V5.5MLA0603NH?qs=NKHyz0HolOAd%2FEKlcc12Wg%3D%3D,1
+"S1, S2",1825910-6,Button_Switch_SMD:SW_MEC_5GSH9,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English,1825910-6,TE Connectivity ALCOSWITCH Switches,$0.13,$0.26,https://www.digikey.ro/ro/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536,2
+U1,BD48ExxG,Package_TO_SOT_SMD:SOT-23-5,https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e,BD48E27G-TR,Rohm Semiconductor,$0.50,$0.50,https://www.digikey.ro/ro/products/detail/rohm-semiconductor/BD48E27G-TR/10244197,1
+U2,ESP32-WROVER-E,Espressif:ESP32-WROVER-E,https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf,ESP32-WROVER-E-N8R8,Espressif Systems,$3.00,$3.00,https://www.digikey.ro/ro/products/detail/espressif-systems/ESP32-WROVER-E-N8R8/11613126,1
+U3,LAN8720A,Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias,http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf,LAN8720A-CP-TR,Microchip Technology,$1.47,$1.47,https://www.digikey.ro/ro/products/detail/microchip-technology/LAN8720A-CP-TR/3872109?s=N4IgjCBcpgTAnBaIDGUBmBDANgZwKYA0IA9lANrgCsVADACz0gC6xADgC5QgDKHATgEsAdgHMQAXwnFYFEABkAggDkAHAHZYtRSwlA,1
+Y1,Q25MHz/20ppm/3.2x2.5mm (FL2500213Z),Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,https://www.diodes.com/assets/Datasheets/FL.pdf,FL2500213Z,Diodes Incorporated,$0.64,$0.64,https://www.digikey.ro/ro/products/detail/diodes-incorporated/FL2500213Z/6048947?s=N4IgTCBcDaIGIBkwFYAMqwEYDMAtEAugL5A,1
 ,,,,,,,,,
-Total,,,,,,,,,
+Total,,,,,,,$33.75,,
