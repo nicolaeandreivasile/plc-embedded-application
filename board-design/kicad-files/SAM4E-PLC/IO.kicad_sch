@@ -3081,7 +3081,7 @@
     (uuid 75fea7a4-bce4-4f3c-84bd-b808b9ae56ee)
   )
 
-  (text_box "Digital output interface:\n"
+  (text_box "Digital output interface:\n- DO0-DO7 pins are connected to one of the I/O arrays (MCV 1,5/8-G-3,81)\n- one can choose whether the digital output is forwarded as it is or inverted via soldering the right path of the solder jumpers."
     (at 349.25 20.32 0) (size 50.8 40.64)
     (stroke (width 0) (type dash) (color 255 0 0 1))
     (fill (type none))
