@@ -2095,6 +2095,10 @@
     (stroke (width 0) (type default))
     (uuid 30cfd4c9-fbe0-441b-8d73-99a946ddef3b)
   )
+  (wire (pts (xy 326.39 170.18) (xy 342.9 170.18))
+    (stroke (width 0) (type default))
+    (uuid 32b52172-8948-4f1d-8070-2d10845bc4fd)
+  )
   (wire (pts (xy 41.91 93.98) (xy 41.91 110.49))
     (stroke (width 0) (type default))
     (uuid 33589d72-35d9-4d04-8d70-a5d478d784f7)
@@ -2247,6 +2251,10 @@
     (stroke (width 0) (type default))
     (uuid 59712af3-950b-41b4-866e-af1bb1d89530)
   )
+  (wire (pts (xy 326.39 165.1) (xy 342.9 165.1))
+    (stroke (width 0) (type default))
+    (uuid 599af1e7-8739-4151-b743-ab6abed1e028)
+  )
   (wire (pts (xy 190.5 218.44) (xy 203.2 218.44))
     (stroke (width 0) (type default))
     (uuid 59ff2cbd-b49c-4398-990a-6522565c13b9)
@@ -2318,6 +2326,10 @@
   (wire (pts (xy 284.48 161.29) (xy 284.48 199.39))
     (stroke (width 0) (type default))
     (uuid 6db49e18-b716-4f64-9fdf-2b538e6044ba)
+  )
+  (wire (pts (xy 326.39 172.72) (xy 342.9 172.72))
+    (stroke (width 0) (type default))
+    (uuid 6f6a8beb-7b29-4cc8-bf1f-ddd204ce2dc6)
   )
   (wire (pts (xy 177.8 81.28) (xy 177.8 80.01))
     (stroke (width 0) (type default))
@@ -2686,6 +2698,10 @@
   (wire (pts (xy 190.5 72.39) (xy 199.39 72.39))
     (stroke (width 0) (type default))
     (uuid cfe8f419-bbbd-44a0-889c-f9ad09f262ee)
+  )
+  (wire (pts (xy 326.39 167.64) (xy 342.9 167.64))
+    (stroke (width 0) (type default))
+    (uuid cffc2969-8d57-47f7-bddc-6d2f25cd0476)
   )
   (wire (pts (xy 276.86 191.77) (xy 276.86 153.67))
     (stroke (width 0) (type default))
@@ -3142,7 +3158,7 @@
           (reference "R49") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "R?") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -3348,7 +3364,7 @@
   (symbol (lib_id "Device:Crystal") (at 288.29 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ab2e645-1f80-46f3-9be4-8aed0a79c7a4)
-    (property "Reference" "Y?" (at 292.1 54.61 90)
+    (property "Reference" "Y2" (at 292.1 54.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "FC-135 32.7680KA-AG0" (at 292.1 57.15 90)
@@ -3365,7 +3381,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "Y?") (unit 1)
+          (reference "Y2") (unit 1)
         )
       )
     )
@@ -3394,7 +3410,7 @@
           (reference "R49") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "R?") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3509,7 +3525,7 @@
           (reference "C3") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "C?") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3538,7 +3554,7 @@
           (reference "R49") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "R?") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3633,7 +3649,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 177.8 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 760e3673-c348-4567-aa1c-5bfabd7d4b26)
-    (property "Reference" "JP?" (at 175.26 85.09 90)
+    (property "Reference" "JP2" (at 175.26 85.09 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 175.26 87.63 90)
@@ -3651,7 +3667,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "JP?") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
     )
@@ -3679,7 +3695,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3714,7 +3730,7 @@
   (symbol (lib_id "dk_Tactile-Switches:1825910-6") (at 139.7 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94938177-5f68-45ac-a8cb-ef39cc45eacf)
-    (property "Reference" "S?" (at 139.7 43.18 0)
+    (property "Reference" "S1" (at 139.7 43.18 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "1825910-6" (at 139.7 45.72 0)
@@ -3760,7 +3776,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "S?") (unit 1)
+          (reference "S1") (unit 1)
         )
       )
     )
@@ -3789,7 +3805,7 @@
           (reference "R9") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3823,7 +3839,7 @@
   (symbol (lib_id "Connector:Conn_ARM_JTAG_SWD_10") (at 63.5 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abb6839b-5090-4b18-aaf8-9e521147c9ed)
-    (property "Reference" "J?" (at 52.07 240.03 0)
+    (property "Reference" "J1" (at 52.07 240.03 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_ARM_JTAG_SWD_10" (at 52.07 242.57 0)
@@ -3848,7 +3864,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "J?") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -3934,7 +3950,7 @@
           (reference "C3") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "C?") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3965,7 +3981,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -4046,7 +4062,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4075,7 +4091,7 @@
           (reference "C3") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "C?") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -4104,7 +4120,7 @@
           (reference "R49") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "R?") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -4221,7 +4237,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -4279,7 +4295,7 @@
           (reference "C3") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "C?") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4310,7 +4326,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4348,7 +4364,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 177.8 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6fc39d0-b5e6-4436-bf18-a3eccc33c763)
-    (property "Reference" "JP?" (at 175.26 69.85 90)
+    (property "Reference" "JP1" (at 175.26 69.85 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 175.26 72.39 90)
@@ -4366,7 +4382,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "JP?") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
     )
@@ -4403,7 +4419,7 @@
   (symbol (lib_id "Device:Crystal_GND24") (at 152.4 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc62937e-9498-4138-9195-279213f1c00f)
-    (property "Reference" "Y?" (at 165.1 96.8441 90)
+    (property "Reference" "Y1" (at 165.1 96.8441 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ECS-160-8-33B-CTN-TR" (at 172.72 99.06 90)
@@ -4422,7 +4438,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
-          (reference "Y?") (unit 1)
+          (reference "Y1") (unit 1)
         )
       )
     )
