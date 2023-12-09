@@ -1165,7 +1165,7 @@
     (uuid db766d29-e34f-4166-bd32-2851b1da345e)
   )
 
-  (text "RTC" (at 147.32 58.42 0)
+  (text "EEPROM" (at 147.32 58.42 0)
     (effects (font (size 3.81 3.81) (color 140 140 0 1)) (justify left bottom))
     (uuid 24cd8412-0cd3-47d0-9bd9-f72f35e55048)
   )

@@ -1610,7 +1610,7 @@
     (property "Value" "22uF/6.3V/20%/C0603" (at 204.47 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 204.1652 107.95 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 204.1652 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 203.2 104.14 0)
