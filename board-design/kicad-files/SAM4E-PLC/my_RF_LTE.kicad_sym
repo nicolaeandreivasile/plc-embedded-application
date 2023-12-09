@@ -87,11 +87,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "112" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "113" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "114" (effects (font (size 1.27 1.27))))
       )
@@ -99,11 +99,11 @@
         (name "USB_BOOT" (effects (font (size 1.27 1.27))))
         (number "115" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "116" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "117" (effects (font (size 1.27 1.27))))
       )
@@ -207,23 +207,23 @@
         (name "USIM_VDD" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "140" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "141" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "142" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "143" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81)
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "144" (effects (font (size 1.27 1.27))))
       )
@@ -239,7 +239,7 @@
         (name "USIM_RST" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
@@ -291,7 +291,7 @@
         (name "SDC2_DATA2" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -351,7 +351,7 @@
         (name "I2C_SDA" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
@@ -403,7 +403,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "54" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "55" (effects (font (size 1.27 1.27))))
       )
@@ -483,31 +483,31 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "72" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "73" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "74" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "75" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "76" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "77" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "78" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "79" (effects (font (size 1.27 1.27))))
       )
@@ -515,23 +515,23 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "80" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "81" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "82" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "83" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
+      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "84" (effects (font (size 1.27 1.27))))
       )
