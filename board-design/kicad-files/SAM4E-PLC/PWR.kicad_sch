@@ -1315,7 +1315,7 @@
           (reference "D3") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
-          (reference "D43") (unit 1)
+          (reference "D36") (unit 1)
         )
       )
     )
@@ -1520,7 +1520,7 @@
           (reference "R88") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
-          (reference "R120") (unit 1)
+          (reference "R112") (unit 1)
         )
       )
     )
@@ -1555,7 +1555,7 @@
           (reference "R88") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
-          (reference "R121") (unit 1)
+          (reference "R113") (unit 1)
         )
       )
     )
@@ -1595,7 +1595,7 @@
           (reference "R53") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
-          (reference "R122") (unit 1)
+          (reference "R114") (unit 1)
         )
       )
     )
@@ -1714,7 +1714,7 @@
           (reference "D35") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
-          (reference "D44") (unit 1)
+          (reference "D37") (unit 1)
         )
       )
     )
@@ -1743,7 +1743,7 @@
           (reference "R48") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
-          (reference "R119") (unit 1)
+          (reference "R111") (unit 1)
         )
       )
     )
@@ -1780,16 +1780,16 @@
   (symbol (lib_id "Device:D_Schottky") (at 63.5 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e77f0d4c-26b6-425d-8569-05d0c4e720bc)
-    (property "Reference" "D42" (at 63.5 87.63 0)
+    (property "Reference" "D35" (at 63.5 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RB075BM40SFHHTL" (at 63.5 90.17 0)
+    (property "Value" "RB088LAM-40TFTR" (at 63.5 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "digikey-footprints:TO-252-3" (at 63.5 92.71 0)
+    (property "Footprint" "Diode_SMD:D_SOD-128" (at 63.5 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb075bm40sfhhtl-e.pdf" (at 63.5 92.71 0)
+    (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb088lam-40tftr-e.pdf" (at 63.5 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 77558ac9-33fd-496e-bcbf-6b7e22214b0a))
@@ -1797,7 +1797,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
-          (reference "D42") (unit 1)
+          (reference "D35") (unit 1)
         )
       )
     )

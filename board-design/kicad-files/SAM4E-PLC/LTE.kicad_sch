@@ -3379,7 +3379,7 @@
   (symbol (lib_id "Power_Protection:ESDA6V1-5SC6") (at 87.63 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22736dad-2e41-4dd1-9234-9fa842592970)
-    (property "Reference" "D1" (at 83.82 143.51 0)
+    (property "Reference" "D2" (at 83.82 143.51 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "ESDA6V1-5SC6" (at 90.17 143.51 0)
@@ -3400,7 +3400,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/62dc9d33-a289-4ad9-a327-b6290b31f4f3"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3472,7 +3472,7 @@
   (symbol (lib_id "SparkFun-DiscreteSemi:D_TVS") (at 156.21 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2515eebd-57e6-4bf3-8ae1-a4b8b4e7285e)
-    (property "Reference" "D2" (at 153.67 53.34 90)
+    (property "Reference" "D3" (at 153.67 53.34 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VESD05C1-02V" (at 153.67 55.88 90)
@@ -3492,7 +3492,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/62dc9d33-a289-4ad9-a327-b6290b31f4f3"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
