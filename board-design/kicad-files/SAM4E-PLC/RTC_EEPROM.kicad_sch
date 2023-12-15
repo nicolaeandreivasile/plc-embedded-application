@@ -1210,15 +1210,15 @@
     (property "Datasheet" "~" (at 71.12 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2423e02e-d43c-4e88-a1b9-4d0b1fa3e8eb))
-    (pin "2" (uuid f9f930e9-631f-4452-b622-6b018c24f4ba))
+    (pin "1" (uuid d7d01a6b-53e7-4b74-8916-8a08b16c23a4))
+    (pin "2" (uuid 8a412ea6-2950-46c2-b21f-11206cf67d23))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C70") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "C97") (unit 1)
+          (reference "C99") (unit 1)
         )
       )
     )
@@ -1239,8 +1239,8 @@
     (property "Datasheet" "https://ro.mouser.com/datasheet/2/87/eaton_mfbm1v2012_high_current_multilayer_ferrite_c-1890685.pdf" (at 170.18 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6e9b128c-9542-4ea7-ad6e-cf4ab2e50ab8))
-    (pin "2" (uuid bd995ff3-09af-4cb1-9b80-9c736abde280))
+    (pin "1" (uuid f72f7415-53f4-44cf-8f18-c9b8404877df))
+    (pin "2" (uuid ec3275ae-3505-48c3-8191-b560ec489896))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
@@ -1274,15 +1274,15 @@
     (property "Datasheet" "~" (at 91.44 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2ec7edd0-cc88-4c58-b33d-25f782b75597))
-    (pin "2" (uuid 7257bb29-0c90-4364-986a-dcaeab8aeeb4))
+    (pin "1" (uuid 77bd09a6-2450-4643-98af-6c7b039f93ad))
+    (pin "2" (uuid daacf319-a826-4d50-882a-e0fff5e33962))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C70") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "C99") (unit 1)
+          (reference "C101") (unit 1)
         )
       )
     )
@@ -1303,8 +1303,8 @@
     (property "Datasheet" "~" (at 107.95 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ae396f2-270a-4b0c-aef8-903e779584c9))
-    (pin "2" (uuid 5eba5b65-1dad-4b81-9edc-c264b983adc4))
+    (pin "1" (uuid 5d67d27f-0386-4086-b014-614241d8a272))
+    (pin "2" (uuid 74f6666e-c918-4185-9855-0081cab9514d))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -1314,7 +1314,7 @@
           (reference "C5") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "C100") (unit 1)
+          (reference "C102") (unit 1)
         )
       )
     )
@@ -1335,7 +1335,7 @@
     (property "Datasheet" "~" (at 195.58 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fdce84fc-2e2f-4d84-9513-f87a516a3885))
+    (pin "1" (uuid 56abaa22-5550-47e3-8bd4-3616061ba139))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
@@ -1363,8 +1363,8 @@
     (property "Datasheet" "~" (at 107.95 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 85671c61-a114-48fa-8769-d310ed1050c5))
-    (pin "2" (uuid 3cf6609b-9070-4ce2-82f3-0b5d61464a97))
+    (pin "1" (uuid 65bd536e-873e-4aec-94d8-d0b8638cadfb))
+    (pin "2" (uuid 64339dd8-a777-4c37-81a7-92a69bcd8fac))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -1374,7 +1374,7 @@
           (reference "C6") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "C101") (unit 1)
+          (reference "C103") (unit 1)
         )
       )
     )
@@ -1395,15 +1395,15 @@
     (property "Datasheet" "~" (at 179.07 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a2114f8c-8c10-448e-84f9-f76991fec2c0))
-    (pin "2" (uuid f9c519d6-7d0e-4777-82c7-55176dd28d5d))
+    (pin "1" (uuid 7a147f13-8623-4309-bc0c-b49c185f6050))
+    (pin "2" (uuid 31fb8a0e-e22b-4bb1-aa8d-c9f7052ad314))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C70") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "C102") (unit 1)
+          (reference "C104") (unit 1)
         )
       )
     )
@@ -1424,7 +1424,7 @@
     (property "Datasheet" "~" (at 83.82 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 804a6907-7d9f-4ed1-81e2-4a6c5bddd4d3))
+    (pin "1" (uuid 3bec5a14-a729-4203-a078-47166706517f))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
@@ -1452,8 +1452,8 @@
     (property "Datasheet" "https://ro.mouser.com/datasheet/2/215/057-744095.pdf" (at 108.204 93.98 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7aea3466-b035-4747-8f88-336c2527a200))
-    (pin "2" (uuid 5ce6486b-4fec-41d5-9466-5fc49c7ce7bd))
+    (pin "1" (uuid 103774ce-0f6d-47bb-92e8-0ed6841649b8))
+    (pin "2" (uuid fab8a253-8ff5-4d74-86e8-b22e8c05f552))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
@@ -1478,7 +1478,7 @@
     (property "Datasheet" "" (at 45.72 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid be993394-7fbf-40b7-9946-c33e8ce19269))
+    (pin "1" (uuid e3449dd1-d7a0-4887-aedc-dd0a4cdf2332))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -1488,7 +1488,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -1509,8 +1509,8 @@
     (property "Datasheet" "~" (at 45.72 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 59dff206-d1f6-413a-be63-08ec76d79f39))
-    (pin "2" (uuid 83b68e9a-bc1a-432d-8f80-299b4107534c))
+    (pin "1" (uuid 3c8f98e9-7b78-468c-9563-ae2070d88a47))
+    (pin "2" (uuid 267df157-f699-4dd4-b6e9-b2561a3f1ca5))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -1520,7 +1520,7 @@
           (reference "C1") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "C96") (unit 1)
+          (reference "C98") (unit 1)
         )
       )
     )
@@ -1541,14 +1541,14 @@
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21754M.pdf" (at 195.58 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf3d63f9-c737-4f7c-bf92-3c1b20dfad51))
-    (pin "2" (uuid 52ecbed5-67a4-4aff-ba19-33bda1af2034))
-    (pin "3" (uuid 3ec2e32b-c3d3-4d79-a9ee-9b34226e0312))
-    (pin "4" (uuid f096ab13-9258-4d5a-9901-683528382536))
-    (pin "5" (uuid bb9437fb-0ec1-4370-b0c4-ffc6d15ceee1))
-    (pin "6" (uuid f3078df9-06d5-4584-9e7e-bef0c46f80ff))
-    (pin "7" (uuid 7901ff9d-787c-491c-ac21-773c6edcfd85))
-    (pin "8" (uuid 104fd13b-60a7-47d9-8bf2-ec55cb422ab8))
+    (pin "1" (uuid 2baa412b-6140-443f-abf0-f17b2a8d536d))
+    (pin "2" (uuid fd7908d9-5c79-4d39-b84a-0e124aba2343))
+    (pin "3" (uuid 66faf683-12d9-44f0-8534-11756c720b1c))
+    (pin "4" (uuid 1c95b54a-f6a1-404c-831d-94f3d1258062))
+    (pin "5" (uuid 3bca5123-08b1-4310-9baa-116be37a3e35))
+    (pin "6" (uuid 1296b9c2-fde7-4177-8c4b-abab24421589))
+    (pin "7" (uuid debaf25a-f51a-46b0-b7e8-5da1ab7f9f21))
+    (pin "8" (uuid e34373c7-96cd-4e0d-83dc-7742c2ad20c8))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
@@ -1573,14 +1573,14 @@
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" (at 83.82 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d626f81f-4664-44f6-91f0-5a39fe5ba176))
-    (pin "2" (uuid 7a41a707-2cb1-4339-b973-d2c6c043b8b8))
-    (pin "3" (uuid a68cf612-cca1-49c9-8b89-94d7a7004018))
-    (pin "4" (uuid dd5b06b8-7aaf-4192-8901-ee3ef694231f))
-    (pin "5" (uuid ea132350-5e92-43a0-8a57-9751ccb0422b))
-    (pin "6" (uuid e0941f91-23aa-42c3-af8b-7981be2007a7))
-    (pin "7" (uuid be29a705-3b46-42b3-96fb-9b5d57357b82))
-    (pin "8" (uuid b8978530-335a-4c2b-8133-4e25969a7631))
+    (pin "1" (uuid a34f046a-35d7-427f-88be-6f53a99b4935))
+    (pin "2" (uuid 544b4d0e-3e60-4a07-9e9e-46d15a1504e9))
+    (pin "3" (uuid a3093f48-1b21-4a80-8f45-f155ca1ab794))
+    (pin "4" (uuid e0ad8895-49ce-4d21-b3ae-f312496727b0))
+    (pin "5" (uuid 1aa6457d-067f-4a2a-bd48-75e9c89c7f28))
+    (pin "6" (uuid f0b1430b-17d7-415f-91d6-5d01a59c5464))
+    (pin "7" (uuid 6f2d0354-5a2f-4e37-b2cd-9297aa64d93a))
+    (pin "8" (uuid 12fdfcb6-49f7-420b-b4a6-39e2f8ab8004))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
@@ -1608,7 +1608,7 @@
     (property "Datasheet" "" (at 195.58 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 166598b5-57ed-4ca3-bfee-f8842062cdec))
+    (pin "1" (uuid 7acb401f-251c-4a39-b53c-d9a1a960f7e3))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -1618,7 +1618,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -1639,15 +1639,15 @@
     (property "Datasheet" "~" (at 77.47 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 57490423-8454-462b-a846-baf5bba9f080))
-    (pin "2" (uuid 103a2ddf-7c5f-4938-9dab-9b64117db008))
+    (pin "1" (uuid ae667718-3c52-4d0e-9523-87165c515b61))
+    (pin "2" (uuid 53fd420e-2798-49d5-8304-9f3543a5b848))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C71") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "C98") (unit 1)
+          (reference "C100") (unit 1)
         )
       )
     )
@@ -1668,15 +1668,15 @@
     (property "Datasheet" "~" (at 185.42 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2eb60a8f-f7fe-416d-ade2-94e998b68729))
-    (pin "2" (uuid 221813fa-6bac-48c5-8ff8-fa2685d81868))
+    (pin "1" (uuid f412efc3-88e3-4a78-ab05-9cd3452abd58))
+    (pin "2" (uuid 615c4dd7-fa86-422d-91cf-ba0f2ea28ac7))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C71") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "C103") (unit 1)
+          (reference "C105") (unit 1)
         )
       )
     )
@@ -1697,8 +1697,8 @@
     (property "Datasheet" "~" (at 52.07 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f8969870-b2ad-42bc-bf29-64a7a3257377))
-    (pin "2" (uuid ab681bae-1e16-46e1-8364-1f442148a410))
+    (pin "1" (uuid b245fa8d-0ba9-4e20-bf8e-b58e18fbad59))
+    (pin "2" (uuid d52f83f9-97be-49ab-977a-e970eea233bf))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -1729,7 +1729,7 @@
     (property "Datasheet" "~" (at 86.36 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 219fe59a-98ae-4d41-ac4b-929aeb1b88d7))
+    (pin "1" (uuid a8ef7eb3-c9b4-4d0c-bb44-77eefd5a2349))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
@@ -1757,8 +1757,8 @@
     (property "Datasheet" "~" (at 107.95 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 36b6cee1-2e49-4718-812f-c8242c2bdfed))
-    (pin "2" (uuid 1569e7b8-8262-4f79-8ac0-e39b736b3208))
+    (pin "1" (uuid ab41fe59-f6b0-4a99-a956-ef5c1b2b3d94))
+    (pin "2" (uuid a55580b8-a560-42dc-82c2-8857898b2991))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -1789,7 +1789,7 @@
     (property "Datasheet" "" (at 91.44 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a323055b-883a-4526-89bd-26567b5d79b8))
+    (pin "1" (uuid 2a2fdd58-e0bf-4a96-805b-8ef9980948e7))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -1799,7 +1799,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -1820,8 +1820,8 @@
     (property "Datasheet" "https://ro.mouser.com/datasheet/2/87/eaton_mfbm1v2012_high_current_multilayer_ferrite_c-1890685.pdf" (at 62.23 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 655ca3c4-c9e5-4063-9ff0-25aa467df57b))
-    (pin "2" (uuid 658d60f1-85de-457d-85a9-3394c5a2cb0c))
+    (pin "1" (uuid a7d5eb54-a23e-475f-9724-8fae5e510f6f))
+    (pin "2" (uuid c4319599-db6c-45f3-a4da-eed58782ec9d))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
@@ -1855,7 +1855,7 @@
     (property "Datasheet" "" (at 71.12 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 35920e67-426e-4e0e-850c-016d95c31d21))
+    (pin "1" (uuid 0358c4ef-a849-466a-aee3-163e8b7353cf))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -1865,7 +1865,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -1886,7 +1886,7 @@
     (property "Datasheet" "" (at 83.82 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 00a43877-ac8a-4edf-b5f2-7dcc43b40f49))
+    (pin "1" (uuid 79c5866a-a9a4-4a79-9905-97b8779e2782))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -1896,7 +1896,7 @@
           (reference "#PWR04") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -1905,7 +1905,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 118.11 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c14d0cf7-ecca-4fc3-b642-b6e29539d151)
-    (property "Reference" "D38" (at 119.38 90.17 0)
+    (property "Reference" "D39" (at 119.38 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20V/0.5A/0.5V (NSR0620P2T5G)" (at 119.38 67.31 0)
@@ -1917,12 +1917,12 @@
     (property "Datasheet" "~" (at 118.11 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 03139818-9bef-4838-bf48-dcac014fa4aa))
-    (pin "2" (uuid e7f4bd24-26ba-42f3-bd46-913bc8a9fcd9))
+    (pin "1" (uuid 7faf4b6b-8485-49fa-a10c-b48ce1012536))
+    (pin "2" (uuid c65a1343-48c7-40f6-ba64-8df493ea69b4))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "D38") (unit 1)
+          (reference "D39") (unit 1)
         )
       )
     )
@@ -1970,8 +1970,8 @@
     (property "Status" "Active" (at 71.12 106.68 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (pin "1" (uuid d0fdd9b9-29ce-43e8-abbc-2cdeaca6c549))
-    (pin "2" (uuid 77420259-4e7c-4cfe-9637-56beda6a71d1))
+    (pin "1" (uuid be737a3b-3343-4857-9153-402a330bf430))
+    (pin "2" (uuid 4b333a35-20eb-42fc-af97-cff2366f9101))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
@@ -1999,7 +1999,7 @@
     (property "Datasheet" "" (at 40.64 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df22f0fa-fb5e-4487-9f42-1208a4ae98fa))
+    (pin "1" (uuid aff53a82-7f55-43dc-82ea-db448a2f0922))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -2009,7 +2009,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -2030,7 +2030,7 @@
     (property "Datasheet" "" (at 161.29 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e42f4f5d-3931-4874-8eb1-703ddba567a0))
+    (pin "1" (uuid f126275e-5a02-40ff-918a-1a4ef37f4c20))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -2040,7 +2040,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -2061,7 +2061,7 @@
     (property "Datasheet" "" (at 185.42 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33e8db3a-c09d-4c47-9d56-e4f65409a3f0))
+    (pin "1" (uuid 287a8129-0ba2-40c2-a8bd-0f8a8fce2c95))
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
@@ -2071,7 +2071,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
