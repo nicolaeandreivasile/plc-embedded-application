@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.254,
-          "height": 0.635,
-          "width": 0.635
+          "drill": 2.5,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -530,6 +530,14 @@
     [
       "153766c4-5539-4687-8dd8-c000826b4aca",
       "LAN8720A"
+    ],
+    [
+      "c9284e56-31b2-4e73-96db-1ba1bc1f0222",
+      "LTE"
+    ],
+    [
+      "c3a38504-b5a6-498c-85dd-d9f048e52de7",
+      "RTC_EEPROM"
     ]
   ],
   "text_variables": {}

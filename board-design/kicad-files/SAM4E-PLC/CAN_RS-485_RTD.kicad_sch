@@ -215,7 +215,7 @@
           (name "A2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -3.81 90) (length 2.54)
+        (pin passive line (at 0 -3.81 90) (length 2.54)
           (name "common" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
@@ -2579,7 +2579,7 @@
   (symbol (lib_id "power:GND") (at 336.55 87.63 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00698c8e-57dd-4820-9a78-9d49c3083838)
-    (property "Reference" "#PWR056" (at 336.55 93.98 0)
+    (property "Reference" "#PWR040" (at 336.55 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 336.55 92.71 0)
@@ -2595,7 +2595,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -2604,7 +2604,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 336.55 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02415cb1-4ef5-4acd-bfb9-9a83c3c0a22a)
-    (property "Reference" "C79" (at 337.82 83.82 90)
+    (property "Reference" "C55" (at 337.82 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/16V/20%/4x5.4mm" (at 337.82 76.2 90)
@@ -2621,7 +2621,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C79") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -2630,7 +2630,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 340.36 227.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03331052-38e5-423c-b9ab-2d50fa3d287a)
-    (property "Reference" "JP9" (at 342.9 227.33 90)
+    (property "Reference" "JP10" (at 342.9 227.33 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SolderJumper_2_Open" (at 342.9 228.6 90)
@@ -2647,7 +2647,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "JP9") (unit 1)
+          (reference "JP10") (unit 1)
         )
       )
     )
@@ -2656,7 +2656,7 @@
   (symbol (lib_id "Device:C") (at 86.36 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05002d5d-7379-418c-9e10-d8e76e5c90ad)
-    (property "Reference" "C63" (at 87.63 67.31 90)
+    (property "Reference" "C39" (at 87.63 67.31 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 87.63 59.69 90)
@@ -2673,7 +2673,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C63") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -2682,7 +2682,7 @@
   (symbol (lib_id "power:+3V3") (at 55.88 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0501a779-41c2-4656-b212-8415e06cdf72)
-    (property "Reference" "#PWR037" (at 55.88 55.88 0)
+    (property "Reference" "#PWR021" (at 55.88 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 55.88 46.99 0)
@@ -2698,7 +2698,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2707,7 +2707,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 226.06 139.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06119ed7-b436-457d-bbbd-6163f57bfcc1)
-    (property "Reference" "JP5" (at 226.06 143.51 0)
+    (property "Reference" "JP6" (at 226.06 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_3_Open" (at 226.06 146.05 0)
@@ -2725,7 +2725,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "JP5") (unit 1)
+          (reference "JP6") (unit 1)
         )
       )
     )
@@ -2734,7 +2734,7 @@
   (symbol (lib_id "Device:C") (at 281.94 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0653f5c5-ff46-47f7-8e3c-cb3d744e96d2)
-    (property "Reference" "C74" (at 283.21 189.23 90)
+    (property "Reference" "C50" (at 283.21 189.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 283.21 181.61 90)
@@ -2751,7 +2751,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C74") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
     )
@@ -2760,7 +2760,7 @@
   (symbol (lib_id "Sensor_Temperature:MAX31865xAP") (at 317.5 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06d092e6-0c2e-496e-b5d0-a039ce7ce66e)
-    (property "Reference" "U10" (at 322.2341 92.71 0)
+    (property "Reference" "U7" (at 322.2341 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MAX31865xAP" (at 322.2341 95.25 0)
@@ -2795,7 +2795,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "U10") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -2804,7 +2804,7 @@
   (symbol (lib_id "Interface_UART:MAX3485") (at 297.18 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0741883a-ee9b-4382-84cf-c240d381b0ef)
-    (property "Reference" "U9" (at 306.07 207.01 0)
+    (property "Reference" "U6" (at 306.07 207.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MAX3485ESA+T" (at 306.07 209.55 0)
@@ -2827,7 +2827,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "U9") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -2836,7 +2836,7 @@
   (symbol (lib_id "Device:R") (at 317.5 236.22 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0769e573-4e4b-4dca-992b-6acc9446aece)
-    (property "Reference" "R61" (at 313.69 234.95 90)
+    (property "Reference" "R36" (at 313.69 234.95 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "420R/R0603" (at 321.31 234.95 90)
@@ -2853,7 +2853,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R61") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -2862,7 +2862,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 288.29 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08022346-7e0d-4d2a-9759-730059181e79)
-    (property "Reference" "C75" (at 289.56 189.23 90)
+    (property "Reference" "C51" (at 289.56 189.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/16V/20%/4x5.4mm" (at 289.56 181.61 90)
@@ -2879,7 +2879,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C75") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
     )
@@ -2888,7 +2888,7 @@
   (symbol (lib_id "Device:R") (at 121.92 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a026d5e-d88b-4adc-a114-ea2a6007147c)
-    (property "Reference" "R52" (at 119.38 186.69 0)
+    (property "Reference" "R27" (at 119.38 186.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "120R/R0402" (at 119.38 189.23 0)
@@ -2905,7 +2905,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R52") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -2914,7 +2914,7 @@
   (symbol (lib_id "Device:R") (at 44.45 176.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0af561d3-0436-47d5-911f-63f45e51666f)
-    (property "Reference" "R44" (at 39.37 175.26 90)
+    (property "Reference" "R19" (at 39.37 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R(board_mounted)" (at 57.15 175.26 90)
@@ -2931,7 +2931,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R44") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2940,7 +2940,7 @@
   (symbol (lib_id "power:GND") (at 203.2 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0be5b601-b5b8-4f9b-8341-3af049b9ee0f)
-    (property "Reference" "#PWR047" (at 203.2 148.59 0)
+    (property "Reference" "#PWR031" (at 203.2 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 147.32 0)
@@ -2956,7 +2956,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2965,7 +2965,7 @@
   (symbol (lib_id "Device:R") (at 86.36 187.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d0cece0-33a5-47eb-98ac-b79f8a915fbe)
-    (property "Reference" "R50" (at 83.82 186.69 0)
+    (property "Reference" "R25" (at 83.82 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/R0603" (at 83.82 189.23 0)
@@ -2982,7 +2982,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R50") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -2991,7 +2991,7 @@
   (symbol (lib_id "power:GND") (at 181.61 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e13413e-0f69-4f06-ac8f-d9ef60b3cc3c)
-    (property "Reference" "#PWR046" (at 181.61 93.98 0)
+    (property "Reference" "#PWR030" (at 181.61 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 92.71 0)
@@ -3007,7 +3007,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -3016,7 +3016,7 @@
   (symbol (lib_id "Device:C") (at 298.45 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f85d93c-1b22-4ed3-85db-e92fb25bfb03)
-    (property "Reference" "C76" (at 299.72 83.82 90)
+    (property "Reference" "C52" (at 299.72 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 299.72 76.2 90)
@@ -3033,7 +3033,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C76") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
     )
@@ -3065,7 +3065,7 @@
           (reference "L?") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "L6") (unit 1)
+          (reference "L3") (unit 1)
         )
       )
     )
@@ -3074,7 +3074,7 @@
   (symbol (lib_id "power:GND") (at 86.36 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11c1b5c9-f12f-470d-8cd4-9dd8b6a33eb4)
-    (property "Reference" "#PWR042" (at 86.36 167.64 0)
+    (property "Reference" "#PWR026" (at 86.36 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 166.37 0)
@@ -3090,7 +3090,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3099,7 +3099,7 @@
   (symbol (lib_id "Device:R") (at 238.76 218.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12b58c2e-4c8c-4699-9e5a-14663d40f137)
-    (property "Reference" "R56" (at 233.68 217.17 90)
+    (property "Reference" "R31" (at 233.68 217.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R(board_mounted)" (at 251.46 217.17 90)
@@ -3116,7 +3116,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R56") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -3125,7 +3125,7 @@
   (symbol (lib_id "Device:R") (at 261.62 207.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18458e3c-a864-4a0c-a609-477609bd7de8)
-    (property "Reference" "R58" (at 264.16 205.74 0)
+    (property "Reference" "R33" (at 264.16 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/R0603" (at 264.16 208.28 0)
@@ -3142,7 +3142,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R58") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -3151,7 +3151,7 @@
   (symbol (lib_id "Device:R") (at 86.36 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a630ec2-7d23-4093-b095-7f2927564125)
-    (property "Reference" "R49" (at 83.82 96.52 0)
+    (property "Reference" "R24" (at 83.82 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/R0603" (at 83.82 99.06 0)
@@ -3168,7 +3168,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R49") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3177,7 +3177,7 @@
   (symbol (lib_id "power:+3V3") (at 55.88 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d4201b5-ba81-43b2-a230-dc726b338369)
-    (property "Reference" "#PWR038" (at 55.88 146.05 0)
+    (property "Reference" "#PWR022" (at 55.88 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 55.88 137.16 0)
@@ -3193,7 +3193,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -3202,7 +3202,7 @@
   (symbol (lib_id "power:GND") (at 219.71 87.63 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d7a4354-e99b-46d4-9263-1224e4f992b4)
-    (property "Reference" "#PWR048" (at 219.71 93.98 0)
+    (property "Reference" "#PWR032" (at 219.71 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.71 92.71 0)
@@ -3218,7 +3218,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3227,7 +3227,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 304.8 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20260a32-2843-40d3-bcaa-b98c4baa69e3)
-    (property "Reference" "C77" (at 306.07 83.82 90)
+    (property "Reference" "C53" (at 306.07 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/16V/20%/4x5.4mm" (at 306.07 76.2 90)
@@ -3244,7 +3244,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C77") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
     )
@@ -3253,7 +3253,7 @@
   (symbol (lib_id "Device:R") (at 238.76 215.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 217f78a3-3a2e-4fe6-a145-7f6caf84acd7)
-    (property "Reference" "R55" (at 233.68 214.63 90)
+    (property "Reference" "R30" (at 233.68 214.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R(board_mounted)" (at 251.46 214.63 90)
@@ -3270,7 +3270,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R55") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -3279,7 +3279,7 @@
   (symbol (lib_id "power:+3V3") (at 248.92 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 227645c7-6b6f-4a0e-9ca9-e41e5e78bb0e)
-    (property "Reference" "#PWR049" (at 248.92 177.8 0)
+    (property "Reference" "#PWR033" (at 248.92 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 248.92 168.91 0)
@@ -3295,7 +3295,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3304,7 +3304,7 @@
   (symbol (lib_id "Device:C") (at 60.96 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 228c45a4-046e-481a-a71c-2c781bdec102)
-    (property "Reference" "C62" (at 62.23 157.48 90)
+    (property "Reference" "C38" (at 62.23 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF/6.3V/20%/C0603" (at 62.23 149.86 90)
@@ -3321,7 +3321,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C62") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -3330,7 +3330,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 200.66 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2486dca3-7aba-4cc8-b732-85a400e9a8dd)
-    (property "Reference" "#FLG012" (at 200.66 67.945 0)
+    (property "Reference" "#FLG08" (at 200.66 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 200.66 64.77 0)
@@ -3346,7 +3346,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#FLG012") (unit 1)
+          (reference "#FLG08") (unit 1)
         )
       )
     )
@@ -3355,7 +3355,7 @@
   (symbol (lib_id "power:GND") (at 359.41 238.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 298fd3a5-1560-4a8f-b8eb-f3ca4a3e75af)
-    (property "Reference" "#PWR057" (at 359.41 245.11 0)
+    (property "Reference" "#PWR041" (at 359.41 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 359.41 243.84 0)
@@ -3371,7 +3371,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -3380,7 +3380,7 @@
   (symbol (lib_id "Device:C") (at 213.36 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2abb2cf9-a0f7-46e0-8405-9b6ccad38dfb)
-    (property "Reference" "C69" (at 214.63 83.82 90)
+    (property "Reference" "C45" (at 214.63 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 214.63 76.2 90)
@@ -3397,7 +3397,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C69") (unit 1)
+          (reference "C45") (unit 1)
         )
       )
     )
@@ -3406,7 +3406,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 187.96 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c850f06-30a9-4847-af03-2867ab6f324f)
-    (property "Reference" "C68" (at 189.23 83.82 90)
+    (property "Reference" "C44" (at 189.23 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/16V/20%/4x5.4mm" (at 189.23 76.2 90)
@@ -3423,7 +3423,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C68") (unit 1)
+          (reference "C44") (unit 1)
         )
       )
     )
@@ -3432,7 +3432,7 @@
   (symbol (lib_id "power:+3V3") (at 280.67 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ecaec93-6ddd-4af9-86c6-3a9a75a1b7f0)
-    (property "Reference" "#PWR051" (at 280.67 72.39 0)
+    (property "Reference" "#PWR035" (at 280.67 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 280.67 63.5 0)
@@ -3448,7 +3448,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3457,7 +3457,7 @@
   (symbol (lib_id "Device:C") (at 369.57 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32a6db32-5381-4dd5-aa33-40db2fd8e2df)
-    (property "Reference" "C81" (at 370.84 138.43 90)
+    (property "Reference" "C57" (at 370.84 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 370.84 130.81 90)
@@ -3474,7 +3474,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C81") (unit 1)
+          (reference "C57") (unit 1)
         )
       )
     )
@@ -3506,7 +3506,7 @@
           (reference "L?") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "L10") (unit 1)
+          (reference "L7") (unit 1)
         )
       )
     )
@@ -3515,7 +3515,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 128.27 187.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38392e8d-fc60-4d4b-9f51-170d3e3fa0f6)
-    (property "Reference" "JP4" (at 130.81 187.96 90)
+    (property "Reference" "JP5" (at 130.81 187.96 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SolderJumper_2_Open" (at 130.81 189.23 90)
@@ -3532,7 +3532,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "JP4") (unit 1)
+          (reference "JP5") (unit 1)
         )
       )
     )
@@ -3541,7 +3541,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 128.27 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3da054f4-6c34-4dc9-9752-ef249e824d96)
-    (property "Reference" "JP3" (at 130.81 97.79 90)
+    (property "Reference" "JP4" (at 130.81 97.79 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SolderJumper_2_Open" (at 130.81 99.06 90)
@@ -3558,7 +3558,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "JP3") (unit 1)
+          (reference "JP4") (unit 1)
         )
       )
     )
@@ -3567,7 +3567,7 @@
   (symbol (lib_id "Device:R") (at 317.5 200.66 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 415df038-de86-4891-bbdd-3061b8e59770)
-    (property "Reference" "R59" (at 313.69 199.39 90)
+    (property "Reference" "R34" (at 313.69 199.39 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "420R/R0603" (at 321.31 199.39 90)
@@ -3584,7 +3584,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R59") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -3593,7 +3593,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 332.74 227.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44eac9f7-e636-4c81-8b6c-5fdd5d691a37)
-    (property "Reference" "JP7" (at 335.28 227.33 90)
+    (property "Reference" "JP8" (at 335.28 227.33 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SolderJumper_2_Open" (at 335.28 228.6 90)
@@ -3610,7 +3610,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "JP7") (unit 1)
+          (reference "JP8") (unit 1)
         )
       )
     )
@@ -3619,7 +3619,7 @@
   (symbol (lib_id "Sensor_Temperature:MAX31865xAP") (at 200.66 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4519b5fe-dfd6-4595-9529-f4e881562859)
-    (property "Reference" "U8" (at 205.3941 92.71 0)
+    (property "Reference" "U5" (at 205.3941 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MAX31865xAP" (at 205.3941 95.25 0)
@@ -3654,7 +3654,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "U8") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -3663,7 +3663,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 317.5 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4704d037-ffb0-4e41-bb56-3159b4131076)
-    (property "Reference" "#FLG014" (at 317.5 67.945 0)
+    (property "Reference" "#FLG010" (at 317.5 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 317.5 64.77 0)
@@ -3679,7 +3679,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#FLG014") (unit 1)
+          (reference "#FLG010") (unit 1)
         )
       )
     )
@@ -3688,7 +3688,7 @@
   (symbol (lib_id "Device:R") (at 121.92 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47399325-3170-4022-8d95-e528361400d9)
-    (property "Reference" "R51" (at 119.38 96.52 0)
+    (property "Reference" "R26" (at 119.38 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "120R/R0402" (at 119.38 99.06 0)
@@ -3705,7 +3705,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R51") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -3714,7 +3714,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 297.18 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 478f399f-640c-4900-af84-bc9d55f3366f)
-    (property "Reference" "#FLG013" (at 297.18 173.355 0)
+    (property "Reference" "#FLG09" (at 297.18 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 297.18 170.18 0)
@@ -3730,7 +3730,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#FLG013") (unit 1)
+          (reference "#FLG09") (unit 1)
         )
       )
     )
@@ -3739,7 +3739,7 @@
   (symbol (lib_id "Device:R") (at 68.58 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a903452-d631-4ac5-a3c4-c87c799e1d51)
-    (property "Reference" "R48" (at 71.12 166.37 0)
+    (property "Reference" "R23" (at 71.12 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/R0603" (at 71.12 168.91 0)
@@ -3756,7 +3756,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R48") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -3765,7 +3765,7 @@
   (symbol (lib_id "power:GND") (at 101.6 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f3f69bb-79cd-40e5-8a78-94253e7a25d8)
-    (property "Reference" "#PWR043" (at 101.6 113.03 0)
+    (property "Reference" "#PWR027" (at 101.6 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 111.76 0)
@@ -3781,7 +3781,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3790,7 +3790,7 @@
   (symbol (lib_id "Device:R") (at 238.76 220.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53c6a7b2-1728-4691-8493-6120c2792fbd)
-    (property "Reference" "R57" (at 233.68 219.71 90)
+    (property "Reference" "R32" (at 233.68 219.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R(board_mounted)" (at 251.46 219.71 90)
@@ -3807,7 +3807,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R57") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -3816,7 +3816,7 @@
   (symbol (lib_id "power:GND") (at 60.96 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53ee8a6c-f79c-4a80-97ef-9b3dbc4752ba)
-    (property "Reference" "#PWR040" (at 60.96 167.64 0)
+    (property "Reference" "#PWR024" (at 60.96 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 166.37 0)
@@ -3832,7 +3832,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3841,7 +3841,7 @@
   (symbol (lib_id "Device:R") (at 342.9 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54e82448-1535-4dae-bc27-b6438ed4cf04)
-    (property "Reference" "R62" (at 344.17 99.06 0)
+    (property "Reference" "R37" (at 344.17 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "400R/R0603" (at 344.17 101.6 0)
@@ -3858,7 +3858,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R62") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -3867,7 +3867,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 92.71 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56fbc83f-bb35-4e03-91da-136cd49b741c)
-    (property "Reference" "C65" (at 93.98 67.31 90)
+    (property "Reference" "C41" (at 93.98 67.31 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/16V/20%/4x5.4mm" (at 93.98 59.69 90)
@@ -3884,7 +3884,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C65") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -3893,7 +3893,7 @@
   (symbol (lib_id "Device:R") (at 44.45 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57c6824d-2f2d-434f-91ae-7673c1645d52)
-    (property "Reference" "R45" (at 39.37 177.8 90)
+    (property "Reference" "R20" (at 39.37 177.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R(board_mounted)" (at 57.15 177.8 90)
@@ -3910,7 +3910,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R45") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -3919,7 +3919,7 @@
   (symbol (lib_id "power:GND") (at 254 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61d5f635-6b2c-4373-bb72-0393824aba15)
-    (property "Reference" "#PWR050" (at 254 199.39 0)
+    (property "Reference" "#PWR034" (at 254 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 254 198.12 0)
@@ -3935,7 +3935,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -3944,7 +3944,7 @@
   (symbol (lib_id "power:GND") (at 86.36 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64bdbded-7ee1-4d97-ab38-318b104cbe15)
-    (property "Reference" "#PWR041" (at 86.36 77.47 0)
+    (property "Reference" "#PWR025" (at 86.36 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 76.2 0)
@@ -3960,7 +3960,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -3969,7 +3969,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 92.71 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6947230e-8c7d-419c-84aa-9e371785929a)
-    (property "Reference" "C66" (at 93.98 157.48 90)
+    (property "Reference" "C42" (at 93.98 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/16V/20%/4x5.4mm" (at 93.98 149.86 90)
@@ -3986,7 +3986,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C66") (unit 1)
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -3995,7 +3995,7 @@
   (symbol (lib_id "power:GND") (at 320.04 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e4c4be5-4a7f-4588-9f48-d5d30d95ad47)
-    (property "Reference" "#PWR055" (at 320.04 148.59 0)
+    (property "Reference" "#PWR039" (at 320.04 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 320.04 147.32 0)
@@ -4011,7 +4011,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -4020,7 +4020,7 @@
   (symbol (lib_id "Device:R") (at 68.58 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ef88a07-741a-4c6d-bd33-165e2f6cd1a6)
-    (property "Reference" "R47" (at 71.12 76.2 0)
+    (property "Reference" "R22" (at 71.12 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/R0603" (at 71.12 78.74 0)
@@ -4037,7 +4037,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R47") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4046,7 +4046,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 342.9 139.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 719d8668-6660-4e86-8a0e-db8447ddee6c)
-    (property "Reference" "JP10" (at 342.9 143.51 0)
+    (property "Reference" "JP11" (at 342.9 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_3_Open" (at 342.9 146.05 0)
@@ -4064,7 +4064,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "JP10") (unit 1)
+          (reference "JP11") (unit 1)
         )
       )
     )
@@ -4073,7 +4073,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 101.6 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76cfb1da-4834-4c15-8545-63d2379bce82)
-    (property "Reference" "#FLG010" (at 101.6 51.435 0)
+    (property "Reference" "#FLG06" (at 101.6 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 101.6 48.26 0)
@@ -4089,7 +4089,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#FLG010") (unit 1)
+          (reference "#FLG06") (unit 1)
         )
       )
     )
@@ -4098,7 +4098,7 @@
   (symbol (lib_id "Device:R") (at 44.45 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79facfd1-88c7-478d-91f4-25f5e4be1ef6)
-    (property "Reference" "R40" (at 39.37 85.09 90)
+    (property "Reference" "R15" (at 39.37 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R(board_mounted)" (at 57.15 85.09 90)
@@ -4115,7 +4115,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R40") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -4124,7 +4124,7 @@
   (symbol (lib_id "Interface_CAN_LIN:SN65HVD234") (at 101.6 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ab5f7d3-71fa-483e-a34b-c0e4ad439d35)
-    (property "Reference" "U6" (at 103.7941 76.2 0)
+    (property "Reference" "U3" (at 103.7941 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SN65HVD234" (at 103.7941 78.74 0)
@@ -4147,7 +4147,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "U6") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4156,7 +4156,7 @@
   (symbol (lib_id "power:GND") (at 298.45 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8174d533-a033-46ba-9090-7fba9fdbc2d8)
-    (property "Reference" "#PWR054" (at 298.45 93.98 0)
+    (property "Reference" "#PWR038" (at 298.45 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 298.45 92.71 0)
@@ -4172,7 +4172,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -4181,7 +4181,7 @@
   (symbol (lib_id "Device:C") (at 254 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86275dbc-6888-442d-be99-47a1f003175c)
-    (property "Reference" "C73" (at 255.27 189.23 90)
+    (property "Reference" "C49" (at 255.27 189.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF/6.3V/20%/C0603" (at 255.27 181.61 90)
@@ -4198,7 +4198,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C73") (unit 1)
+          (reference "C49") (unit 1)
         )
       )
     )
@@ -4207,7 +4207,7 @@
   (symbol (lib_id "Device:D_TVS_Dual_AAC") (at 359.41 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86c0ac84-9d5a-40f9-8434-1108441f6e1f)
-    (property "Reference" "D5" (at 359.41 226.06 0)
+    (property "Reference" "D3" (at 359.41 226.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VESD16A2-03G-G3" (at 359.41 228.6 0)
@@ -4216,7 +4216,7 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70" (at 355.6 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.vishay.com/docs/86150/vesd01a2-03gtovesd33a2-03g.pdf" (at 355.6 232.41 0)
+    (property "Datasheet" "~" (at 355.6 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4651b8d3-9ac9-4dcf-b2f2-2c00195e7b36))
@@ -4225,7 +4225,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "D5") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -4234,7 +4234,7 @@
   (symbol (lib_id "power:GND") (at 281.94 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e6d4045-dc4a-4eed-8ac5-fa7e555ae329)
-    (property "Reference" "#PWR052" (at 281.94 199.39 0)
+    (property "Reference" "#PWR036" (at 281.94 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 281.94 198.12 0)
@@ -4250,7 +4250,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -4282,7 +4282,7 @@
           (reference "L?") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "L7") (unit 1)
+          (reference "L4") (unit 1)
         )
       )
     )
@@ -4314,7 +4314,7 @@
           (reference "L?") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "L8") (unit 1)
+          (reference "L5") (unit 1)
         )
       )
     )
@@ -4323,7 +4323,7 @@
   (symbol (lib_id "power:GND") (at 60.96 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d1b1a0b-ad9c-4b09-bc37-54f31b55e173)
-    (property "Reference" "#PWR039" (at 60.96 77.47 0)
+    (property "Reference" "#PWR023" (at 60.96 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 76.2 0)
@@ -4339,7 +4339,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -4348,7 +4348,7 @@
   (symbol (lib_id "power:GND") (at 101.6 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a021def4-aaf8-4bea-be3f-9d1364283c36)
-    (property "Reference" "#PWR044" (at 101.6 203.2 0)
+    (property "Reference" "#PWR028" (at 101.6 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 201.93 0)
@@ -4364,7 +4364,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -4373,7 +4373,7 @@
   (symbol (lib_id "Device:R") (at 44.45 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3ec0b61-a7db-4020-9745-70addd96adfc)
-    (property "Reference" "R39" (at 39.37 82.55 90)
+    (property "Reference" "R14" (at 39.37 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R(board_mounted)" (at 57.15 82.55 90)
@@ -4390,7 +4390,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R39") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -4399,7 +4399,7 @@
   (symbol (lib_id "Device:C") (at 330.2 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a913bfa4-ad20-4e50-a20a-afa1850d642d)
-    (property "Reference" "C78" (at 331.47 83.82 90)
+    (property "Reference" "C54" (at 331.47 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 331.47 76.2 90)
@@ -4416,7 +4416,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C78") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
     )
@@ -4425,7 +4425,7 @@
   (symbol (lib_id "power:+3V3") (at 163.83 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ace61be1-230f-41fd-b97d-8ed478ac4b3b)
-    (property "Reference" "#PWR045" (at 163.83 72.39 0)
+    (property "Reference" "#PWR029" (at 163.83 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 163.83 63.5 0)
@@ -4441,7 +4441,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -4473,7 +4473,7 @@
           (reference "L?") (unit 1)
         )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "L9") (unit 1)
+          (reference "L6") (unit 1)
         )
       )
     )
@@ -4482,7 +4482,7 @@
   (symbol (lib_id "Device:R") (at 44.45 173.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b965228e-1607-4ed2-aba9-165c0ae9ae47)
-    (property "Reference" "R43" (at 39.37 172.72 90)
+    (property "Reference" "R18" (at 39.37 172.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R(board_mounted)" (at 57.15 172.72 90)
@@ -4499,7 +4499,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R43") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -4508,7 +4508,7 @@
   (symbol (lib_id "Device:C") (at 354.33 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c32dd9c4-7934-4db6-acc9-fe0f24743b84)
-    (property "Reference" "C80" (at 355.6 138.43 90)
+    (property "Reference" "C56" (at 355.6 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 355.6 130.81 90)
@@ -4525,7 +4525,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C80") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
     )
@@ -4534,7 +4534,7 @@
   (symbol (lib_id "Device:C") (at 181.61 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c51a9d58-0f6e-4b36-88ba-15273ea080d2)
-    (property "Reference" "C67" (at 182.88 83.82 90)
+    (property "Reference" "C43" (at 182.88 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 182.88 76.2 90)
@@ -4551,7 +4551,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C67") (unit 1)
+          (reference "C43") (unit 1)
         )
       )
     )
@@ -4560,7 +4560,7 @@
   (symbol (lib_id "Device:C") (at 252.73 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd1ed652-7197-4932-b77e-d1af5a23e2cd)
-    (property "Reference" "C72" (at 254 138.43 90)
+    (property "Reference" "C48" (at 254 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 254 130.81 90)
@@ -4577,7 +4577,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C72") (unit 1)
+          (reference "C48") (unit 1)
         )
       )
     )
@@ -4586,7 +4586,7 @@
   (symbol (lib_id "Device:R") (at 44.45 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfcbc476-2a7c-4b8e-87c3-9b8409b05aa8)
-    (property "Reference" "R41" (at 39.37 87.63 90)
+    (property "Reference" "R16" (at 39.37 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R(board_mounted)" (at 57.15 87.63 90)
@@ -4603,7 +4603,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R41") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -4612,7 +4612,7 @@
   (symbol (lib_id "Device:R") (at 226.06 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da1bf44d-7c1e-4435-b669-683267d2a1d9)
-    (property "Reference" "R53" (at 227.33 99.06 0)
+    (property "Reference" "R28" (at 227.33 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "400R/R0603" (at 227.33 101.6 0)
@@ -4629,7 +4629,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R53") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -4638,7 +4638,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 361.95 139.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2fb8c93-9983-431a-b8d8-3e90a466d0d9)
-    (property "Reference" "JP11" (at 361.95 143.51 0)
+    (property "Reference" "JP12" (at 361.95 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_3_Open" (at 361.95 146.05 0)
@@ -4656,7 +4656,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "JP11") (unit 1)
+          (reference "JP12") (unit 1)
         )
       )
     )
@@ -4665,7 +4665,7 @@
   (symbol (lib_id "Device:R") (at 317.5 233.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e6d7ce49-51ac-49d5-a5d1-bd9a0bc8c700)
-    (property "Reference" "R60" (at 313.69 232.41 90)
+    (property "Reference" "R35" (at 313.69 232.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "120R/R0603" (at 321.31 232.41 90)
@@ -4682,7 +4682,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R60") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -4691,7 +4691,7 @@
   (symbol (lib_id "Device:R") (at 44.45 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8d5fd8e-1df4-4b40-858c-e26e19d52b67)
-    (property "Reference" "R46" (at 39.37 180.34 90)
+    (property "Reference" "R21" (at 39.37 180.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R(board_mounted)" (at 57.15 180.34 90)
@@ -4708,7 +4708,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R46") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -4717,7 +4717,7 @@
   (symbol (lib_id "Device:C") (at 86.36 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8d8053e-d324-47c1-857a-edc6e15fd2ba)
-    (property "Reference" "C64" (at 87.63 157.48 90)
+    (property "Reference" "C40" (at 87.63 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 87.63 149.86 90)
@@ -4734,7 +4734,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C64") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -4743,7 +4743,7 @@
   (symbol (lib_id "Device:C") (at 60.96 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebb04ef0-f4f3-4aa4-98ff-86793d6bd3c4)
-    (property "Reference" "C61" (at 62.23 67.31 90)
+    (property "Reference" "C37" (at 62.23 67.31 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF/6.3V/20%/C0603" (at 62.23 59.69 90)
@@ -4760,7 +4760,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C61") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -4769,7 +4769,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 101.6 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef2f645e-fd90-4db2-a0dc-c9c9878f2821)
-    (property "Reference" "#FLG011" (at 101.6 141.605 0)
+    (property "Reference" "#FLG07" (at 101.6 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 101.6 138.43 0)
@@ -4785,7 +4785,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#FLG011") (unit 1)
+          (reference "#FLG07") (unit 1)
         )
       )
     )
@@ -4794,7 +4794,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 245.11 139.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef866f51-65ee-4413-ae23-5ff3c381173b)
-    (property "Reference" "JP6" (at 245.11 143.51 0)
+    (property "Reference" "JP7" (at 245.11 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_3_Open" (at 245.11 146.05 0)
@@ -4812,7 +4812,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "JP6") (unit 1)
+          (reference "JP7") (unit 1)
         )
       )
     )
@@ -4821,7 +4821,7 @@
   (symbol (lib_id "Device:R") (at 44.45 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1490721-cb0e-4df2-9e7d-4e3ef5569944)
-    (property "Reference" "R42" (at 39.37 90.17 90)
+    (property "Reference" "R17" (at 39.37 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R(board_mounted)" (at 57.15 90.17 90)
@@ -4838,7 +4838,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R42") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -4847,7 +4847,7 @@
   (symbol (lib_id "power:GND") (at 297.18 238.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4d3c41d-49b2-471d-aa59-7b9d19d2faaf)
-    (property "Reference" "#PWR053" (at 297.18 245.11 0)
+    (property "Reference" "#PWR037" (at 297.18 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 297.18 243.84 0)
@@ -4863,7 +4863,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -4872,7 +4872,7 @@
   (symbol (lib_id "Device:R") (at 238.76 213.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f91a1c4f-3d33-4009-a3c9-e11dc4595c53)
-    (property "Reference" "R54" (at 233.68 212.09 90)
+    (property "Reference" "R29" (at 233.68 212.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R(board_mounted)" (at 251.46 212.09 90)
@@ -4889,7 +4889,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "R54") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -4898,7 +4898,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 219.71 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid face9708-fe48-4a70-9bf2-b65c99e28290)
-    (property "Reference" "C70" (at 220.98 83.82 90)
+    (property "Reference" "C46" (at 220.98 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/16V/20%/4x5.4mm" (at 220.98 76.2 90)
@@ -4915,7 +4915,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C70") (unit 1)
+          (reference "C46") (unit 1)
         )
       )
     )
@@ -4924,7 +4924,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 340.36 207.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc0dde5d-eba6-45a3-8bc5-8153949d9e80)
-    (property "Reference" "JP8" (at 342.9 207.01 90)
+    (property "Reference" "JP9" (at 342.9 207.01 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SolderJumper_2_Open" (at 342.9 208.28 90)
@@ -4941,7 +4941,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "JP8") (unit 1)
+          (reference "JP9") (unit 1)
         )
       )
     )
@@ -4950,7 +4950,7 @@
   (symbol (lib_id "Device:C") (at 237.49 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc547103-d10a-405c-a243-f0417c4ff01c)
-    (property "Reference" "C71" (at 238.76 138.43 90)
+    (property "Reference" "C47" (at 238.76 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 238.76 130.81 90)
@@ -4967,7 +4967,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "C71") (unit 1)
+          (reference "C47") (unit 1)
         )
       )
     )
@@ -4976,7 +4976,7 @@
   (symbol (lib_id "Interface_CAN_LIN:SN65HVD234") (at 101.6 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc7082d8-7e21-49d3-ac74-9300e90e5754)
-    (property "Reference" "U7" (at 103.7941 166.37 0)
+    (property "Reference" "U4" (at 103.7941 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SN65HVD234" (at 103.7941 168.91 0)
@@ -4999,7 +4999,7 @@
     (instances
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
-          (reference "U7") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )

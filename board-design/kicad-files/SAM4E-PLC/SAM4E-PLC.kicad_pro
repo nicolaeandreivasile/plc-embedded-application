@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 2.5,
-          "height": 2.5,
-          "width": 2.5
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -520,10 +520,6 @@
       ""
     ],
     [
-      "62dc9d33-a289-4ad9-a327-b6290b31f4f3",
-      "LTE"
-    ],
-    [
       "32910dfe-b730-4651-8391-975b8cdac59d",
       "CAN, RS-485, RTD"
     ],
@@ -534,10 +530,6 @@
     [
       "aee81a7b-cba1-4b89-a883-459d3f783e91",
       "PWR"
-    ],
-    [
-      "fc19d0ce-fd3e-4f10-b156-7f34046be7ce",
-      "RTC, EEPROM"
     ]
   ],
   "text_variables": {}

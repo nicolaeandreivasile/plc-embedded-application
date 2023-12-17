@@ -1198,7 +1198,7 @@
   (symbol (lib_id "Device:C") (at 71.12 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05114a57-b99b-410b-affb-59fdeb0bdf79)
-    (property "Reference" "C70" (at 72.39 91.44 90)
+    (property "Reference" "C50" (at 72.39 91.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 72.39 83.82 90)
@@ -1213,6 +1213,11 @@
     (pin "1" (uuid d7d01a6b-53e7-4b74-8916-8a08b16c23a4))
     (pin "2" (uuid 8a412ea6-2950-46c2-b21f-11206cf67d23))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "C50") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C70") (unit 1)
@@ -1227,7 +1232,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 170.18 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07c4b1f7-f31b-4652-bb0f-ee954417f108)
-    (property "Reference" "L?" (at 170.18 78.74 90)
+    (property "Reference" "L8" (at 170.18 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FB0805/600R/2A" (at 170.18 85.09 90)
@@ -1242,6 +1247,11 @@
     (pin "1" (uuid f72f7415-53f4-44cf-8f18-c9b8404877df))
     (pin "2" (uuid ec3275ae-3505-48c3-8191-b560ec489896))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "L8") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
           (reference "L?") (unit 1)
@@ -1262,7 +1272,7 @@
   (symbol (lib_id "Device:C") (at 91.44 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1088deea-be24-43a1-a7c5-24b188598822)
-    (property "Reference" "C70" (at 92.71 91.44 90)
+    (property "Reference" "C52" (at 92.71 91.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 92.71 83.82 90)
@@ -1277,6 +1287,11 @@
     (pin "1" (uuid 77bd09a6-2450-4643-98af-6c7b039f93ad))
     (pin "2" (uuid daacf319-a826-4d50-882a-e0fff5e33962))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "C52") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C70") (unit 1)
@@ -1291,7 +1306,7 @@
   (symbol (lib_id "Device:C") (at 107.95 105.41 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1eb85355-f156-45fa-88c5-c5269c827cbe)
-    (property "Reference" "C3" (at 102.87 106.68 90)
+    (property "Reference" "C53" (at 102.87 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10pF/6.3V/10%/C0603" (at 110.49 106.68 90)
@@ -1306,6 +1321,11 @@
     (pin "1" (uuid 5d67d27f-0386-4086-b014-614241d8a272))
     (pin "2" (uuid 74f6666e-c918-4185-9855-0081cab9514d))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "C53") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C3") (unit 1)
@@ -1323,7 +1343,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 195.58 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 21a40732-189c-424f-85d4-8bf338017c14)
-    (property "Reference" "#FLG01" (at 195.58 78.105 0)
+    (property "Reference" "#FLG014" (at 195.58 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 195.58 72.39 90)
@@ -1337,6 +1357,11 @@
     )
     (pin "1" (uuid 56abaa22-5550-47e3-8bd4-3616061ba139))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "#FLG014") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
           (reference "#FLG01") (unit 1)
@@ -1351,7 +1376,7 @@
   (symbol (lib_id "Device:C") (at 107.95 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 21fe5110-5f11-4e64-aecd-2b551bae2276)
-    (property "Reference" "C3" (at 102.87 119.38 90)
+    (property "Reference" "C54" (at 102.87 119.38 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10pF/6.3V/10%/C0603" (at 110.49 119.38 90)
@@ -1366,6 +1391,11 @@
     (pin "1" (uuid 65bd536e-873e-4aec-94d8-d0b8638cadfb))
     (pin "2" (uuid 64339dd8-a777-4c37-81a7-92a69bcd8fac))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "C54") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C3") (unit 1)
@@ -1383,7 +1413,7 @@
   (symbol (lib_id "Device:C") (at 179.07 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bc5ea63-572e-43b4-87d8-e44c4a83ba48)
-    (property "Reference" "C70" (at 180.34 93.98 90)
+    (property "Reference" "C55" (at 180.34 93.98 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/6.3V/20%/C0603" (at 180.34 86.36 90)
@@ -1398,6 +1428,11 @@
     (pin "1" (uuid 7a147f13-8623-4309-bc0c-b49c185f6050))
     (pin "2" (uuid 31fb8a0e-e22b-4bb1-aa8d-c9f7052ad314))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "C55") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C70") (unit 1)
@@ -1412,7 +1447,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 83.82 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43d06363-bc7b-46a5-bf39-63ab641dd738)
-    (property "Reference" "#FLG01" (at 83.82 75.565 0)
+    (property "Reference" "#FLG012" (at 83.82 75.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 83.82 69.85 90)
@@ -1426,6 +1461,11 @@
     )
     (pin "1" (uuid 3bec5a14-a729-4203-a078-47166706517f))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "#FLG012") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
           (reference "#FLG01") (unit 1)
@@ -1455,6 +1495,11 @@
     (pin "1" (uuid 103774ce-0f6d-47bb-92e8-0ed6841649b8))
     (pin "2" (uuid fab8a253-8ff5-4d74-86e8-b22e8c05f552))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "BT1") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
           (reference "BT1") (unit 1)
@@ -1466,7 +1511,7 @@
   (symbol (lib_id "power:GND") (at 45.72 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60bd5b2d-8718-45eb-8718-8c9c495c4a92)
-    (property "Reference" "#PWR03" (at 45.72 101.6 0)
+    (property "Reference" "#PWR055" (at 45.72 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 45.72 100.33 0)
@@ -1480,6 +1525,11 @@
     )
     (pin "1" (uuid e3449dd1-d7a0-4887-aedc-dd0a4cdf2332))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "#PWR055") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "#PWR03") (unit 1)
@@ -1497,7 +1547,7 @@
   (symbol (lib_id "Device:C") (at 45.72 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 756f98f7-3f6a-4583-948f-4e91327cde8b)
-    (property "Reference" "C1" (at 46.99 91.44 90)
+    (property "Reference" "C49" (at 46.99 91.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF/6.3V/20%/C0603" (at 46.99 83.82 90)
@@ -1512,6 +1562,11 @@
     (pin "1" (uuid 3c8f98e9-7b78-468c-9563-ae2070d88a47))
     (pin "2" (uuid 267df157-f699-4dd4-b6e9-b2561a3f1ca5))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "C49") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C1") (unit 1)
@@ -1529,7 +1584,7 @@
   (symbol (lib_id "Memory_EEPROM:24LC512") (at 195.58 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77c7cc2f-65f6-49d5-924d-107739432939)
-    (property "Reference" "U16" (at 197.7741 104.14 0)
+    (property "Reference" "U8" (at 197.7741 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "24LC512" (at 197.7741 106.68 0)
@@ -1550,6 +1605,11 @@
     (pin "7" (uuid debaf25a-f51a-46b0-b7e8-5da1ab7f9f21))
     (pin "8" (uuid e34373c7-96cd-4e0d-83dc-7742c2ad20c8))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "U8") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
           (reference "U16") (unit 1)
@@ -1561,7 +1621,7 @@
   (symbol (lib_id "Timer_RTC:MCP7940N-xSN") (at 83.82 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 839ac3f1-c839-4098-a521-c4996d4361c5)
-    (property "Reference" "U1" (at 86.0141 121.92 0)
+    (property "Reference" "U7" (at 86.0141 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP7940N-xSN" (at 86.0141 124.46 0)
@@ -1582,6 +1642,11 @@
     (pin "7" (uuid 6f2d0354-5a2f-4e37-b2cd-9297aa64d93a))
     (pin "8" (uuid 12fdfcb6-49f7-420b-b4a6-39e2f8ab8004))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "U7") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
           (reference "U1") (unit 1)
@@ -1596,7 +1661,7 @@
   (symbol (lib_id "power:GND") (at 195.58 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 942b0a1c-1b8a-4516-87b6-1296d9c03466)
-    (property "Reference" "#PWR05" (at 195.58 133.35 0)
+    (property "Reference" "#PWR061" (at 195.58 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 132.08 0)
@@ -1610,6 +1675,11 @@
     )
     (pin "1" (uuid 7acb401f-251c-4a39-b53c-d9a1a960f7e3))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "#PWR061") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "#PWR05") (unit 1)
@@ -1627,7 +1697,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 77.47 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ac5b39b-9ebc-4962-bcfb-32ecc075e32a)
-    (property "Reference" "C71" (at 78.74 91.44 90)
+    (property "Reference" "C51" (at 78.74 91.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/16V/20%/4x5.4mm" (at 78.74 83.82 90)
@@ -1642,6 +1712,11 @@
     (pin "1" (uuid ae667718-3c52-4d0e-9523-87165c515b61))
     (pin "2" (uuid 53fd420e-2798-49d5-8304-9f3543a5b848))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "C51") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C71") (unit 1)
@@ -1656,7 +1731,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 185.42 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b3c5348-c3ac-401c-b65b-02798e8ec140)
-    (property "Reference" "C71" (at 186.69 93.98 90)
+    (property "Reference" "C56" (at 186.69 93.98 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/16V/20%/4x5.4mm" (at 186.69 86.36 90)
@@ -1671,6 +1746,11 @@
     (pin "1" (uuid f412efc3-88e3-4a78-ab05-9cd3452abd58))
     (pin "2" (uuid 615c4dd7-fa86-422d-91cf-ba0f2ea28ac7))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "C56") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "C71") (unit 1)
@@ -1685,7 +1765,7 @@
   (symbol (lib_id "Device:R") (at 52.07 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a241b467-d845-4272-9afe-9dfc3e8953b6)
-    (property "Reference" "R9" (at 54.61 99.06 0)
+    (property "Reference" "R60" (at 54.61 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/R0603" (at 54.61 101.6 0)
@@ -1700,6 +1780,11 @@
     (pin "1" (uuid b245fa8d-0ba9-4e20-bf8e-b58e18fbad59))
     (pin "2" (uuid d52f83f9-97be-49ab-977a-e970eea233bf))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "R60") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "R9") (unit 1)
@@ -1717,7 +1802,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 86.36 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a268474d-9050-4eb4-acdb-50f3a98c930c)
-    (property "Reference" "#FLG02" (at 86.36 75.565 0)
+    (property "Reference" "#FLG013" (at 86.36 75.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 86.36 69.85 90)
@@ -1731,6 +1816,11 @@
     )
     (pin "1" (uuid a8ef7eb3-c9b4-4d0c-bb44-77eefd5a2349))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "#FLG013") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
           (reference "#FLG02") (unit 1)
@@ -1745,7 +1835,7 @@
   (symbol (lib_id "Device:R") (at 107.95 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3af8c85-50f6-4046-bee9-624bbca2c33f)
-    (property "Reference" "R9" (at 107.95 77.47 90)
+    (property "Reference" "R61" (at 107.95 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K/R0603" (at 107.95 82.55 90)
@@ -1760,6 +1850,11 @@
     (pin "1" (uuid ab41fe59-f6b0-4a99-a956-ef5c1b2b3d94))
     (pin "2" (uuid a55580b8-a560-42dc-82c2-8857898b2991))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "R61") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "R9") (unit 1)
@@ -1777,7 +1872,7 @@
   (symbol (lib_id "power:GND") (at 91.44 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acd81423-dec9-409e-a628-ed107baa08d6)
-    (property "Reference" "#PWR05" (at 91.44 101.6 0)
+    (property "Reference" "#PWR058" (at 91.44 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 100.33 0)
@@ -1791,6 +1886,11 @@
     )
     (pin "1" (uuid 2a2fdd58-e0bf-4a96-805b-8ef9980948e7))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "#PWR058") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "#PWR05") (unit 1)
@@ -1808,7 +1908,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 62.23 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba13edfe-45ca-4f33-94cc-34a8b3cf3415)
-    (property "Reference" "L?" (at 62.23 76.2 90)
+    (property "Reference" "L7" (at 62.23 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FB0805/600R/2A" (at 62.23 82.55 90)
@@ -1823,6 +1923,11 @@
     (pin "1" (uuid a7d5eb54-a23e-475f-9724-8fae5e510f6f))
     (pin "2" (uuid c4319599-db6c-45f3-a4da-eed58782ec9d))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "L7") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
           (reference "L?") (unit 1)
@@ -1843,7 +1948,7 @@
   (symbol (lib_id "power:GND") (at 71.12 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bda1a5cd-d456-43a8-967e-bb8dd2e08daa)
-    (property "Reference" "#PWR05" (at 71.12 101.6 0)
+    (property "Reference" "#PWR056" (at 71.12 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 100.33 0)
@@ -1857,6 +1962,11 @@
     )
     (pin "1" (uuid 0358c4ef-a849-466a-aee3-163e8b7353cf))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "#PWR056") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "#PWR05") (unit 1)
@@ -1874,7 +1984,7 @@
   (symbol (lib_id "power:GND") (at 83.82 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0d3bf10-810f-4c71-86ee-e3ec2785ab21)
-    (property "Reference" "#PWR05" (at 83.82 135.89 0)
+    (property "Reference" "#PWR057" (at 83.82 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 134.62 0)
@@ -1888,6 +1998,11 @@
     )
     (pin "1" (uuid 79c5866a-a9a4-4a79-9905-97b8779e2782))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "#PWR057") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "#PWR05") (unit 1)
@@ -1905,7 +2020,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 118.11 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c14d0cf7-ecca-4fc3-b642-b6e29539d151)
-    (property "Reference" "D39" (at 119.38 90.17 0)
+    (property "Reference" "D3" (at 119.38 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20V/0.5A/0.5V (NSR0620P2T5G)" (at 119.38 67.31 0)
@@ -1920,6 +2035,11 @@
     (pin "1" (uuid 7faf4b6b-8485-49fa-a10c-b48ce1012536))
     (pin "2" (uuid c65a1343-48c7-40f6-ba64-8df493ea69b4))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "D3") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/fc19d0ce-fd3e-4f10-b156-7f34046be7ce"
           (reference "D39") (unit 1)
@@ -1973,6 +2093,11 @@
     (pin "1" (uuid be737a3b-3343-4857-9153-402a330bf430))
     (pin "2" (uuid 4b333a35-20eb-42fc-af97-cff2366f9101))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "XTAL1") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d"
           (reference "XTAL1") (unit 1)
@@ -1987,7 +2112,7 @@
   (symbol (lib_id "power:+3V3") (at 40.64 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da5510c1-86a6-43e6-8400-7959af9e3e17)
-    (property "Reference" "#PWR01" (at 40.64 80.01 0)
+    (property "Reference" "#PWR054" (at 40.64 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 40.64 71.12 0)
@@ -2001,6 +2126,11 @@
     )
     (pin "1" (uuid aff53a82-7f55-43dc-82ea-db448a2f0922))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "#PWR054") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "#PWR01") (unit 1)
@@ -2018,7 +2148,7 @@
   (symbol (lib_id "power:+3V3") (at 161.29 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e05cd6f0-6638-41e9-84b4-2fc8af07beaa)
-    (property "Reference" "#PWR01" (at 161.29 81.28 0)
+    (property "Reference" "#PWR059" (at 161.29 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 161.29 72.39 0)
@@ -2032,6 +2162,11 @@
     )
     (pin "1" (uuid f126275e-5a02-40ff-918a-1a4ef37f4c20))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "#PWR059") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "#PWR01") (unit 1)
@@ -2049,7 +2184,7 @@
   (symbol (lib_id "power:GND") (at 185.42 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6441d16-7419-4991-ad43-94a716ce7bf7)
-    (property "Reference" "#PWR03" (at 185.42 104.14 0)
+    (property "Reference" "#PWR060" (at 185.42 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 102.87 0)
@@ -2063,6 +2198,11 @@
     )
     (pin "1" (uuid 287a8129-0ba2-40c2-a8bd-0f8a8fce2c95))
     (instances
+      (project "ESP32-PLC"
+        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c3a38504-b5a6-498c-85dd-d9f048e52de7"
+          (reference "#PWR060") (unit 1)
+        )
+      )
       (project "SAM4E-PLC"
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "#PWR03") (unit 1)
