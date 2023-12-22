@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at 0 -17.78 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d65ecce6-12d8-47ce-8f98-4841ea906b2c)
   )
   (fp_text value "Quectel_EC21_L29.0mm_W32.0mm" (at 0 17.78 unlocked) (layer "F.Fab")

@@ -6,7 +6,7 @@
     (property "Value" "EC21" (at 12.7 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "my_RF_LTE:Quectel_EC21_L29.0mm_W32.0mm" (at 25.4 -64.77 0)
+    (property "Footprint" "my_RF_LTE:Quectel_EC21_L29.0mm_W32.0mm" (at 25.4 -91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.quectel.com/wp-content/uploads/2023/03/Quectel_Product_Brochure_V7.4.pdf" (at 0 0 0)
@@ -19,7 +19,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "EC21_1_1"
-      (rectangle (start -21.59 62.23) (end 21.59 -62.23)
+      (rectangle (start -21.59 62.23) (end 21.59 -88.9)
         (stroke (width 0.254) (type default))
         (fill (type background))
       )
@@ -31,43 +31,43 @@
         (name "USIM_GND" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "100" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "101" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "102" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "103" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "104" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "105" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "106" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "107" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "108" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "109" (effects (font (size 1.27 1.27))))
       )
@@ -75,23 +75,23 @@
         (name "DBG_RXD" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "110" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "111" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "112" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
+      (pin no_connect line (at 21.59 -58.42 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "113" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
+      (pin no_connect line (at 21.59 -60.96 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "114" (effects (font (size 1.27 1.27))))
       )
@@ -99,11 +99,11 @@
         (name "USB_BOOT" (effects (font (size 1.27 1.27))))
         (number "115" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
+      (pin no_connect line (at 21.59 -63.5 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "116" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
+      (pin no_connect line (at 21.59 -66.04 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "117" (effects (font (size 1.27 1.27))))
       )
@@ -207,23 +207,23 @@
         (name "USIM_VDD" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
+      (pin no_connect line (at 21.59 -71.12 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "140" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
+      (pin no_connect line (at 21.59 -73.66 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "141" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
+      (pin no_connect inverted (at 21.59 -76.2 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "142" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
+      (pin no_connect line (at 21.59 -78.74 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "143" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81)
+      (pin no_connect line (at 21.59 -81.28 180) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "144" (effects (font (size 1.27 1.27))))
       )
@@ -239,11 +239,11 @@
         (name "USIM_RST" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
+      (pin no_connect line (at -21.59 -66.04 0) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
@@ -259,7 +259,7 @@
         (name "PWRKEY" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
@@ -291,7 +291,7 @@
         (name "SDC2_DATA2" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
+      (pin no_connect line (at -21.59 -60.96 0) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -319,7 +319,7 @@
         (name "ANT_DIV" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
@@ -351,7 +351,7 @@
         (name "I2C_SDA" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
+      (pin no_connect line (at -21.59 -71.12 0) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
@@ -363,7 +363,7 @@
         (name "ADC0" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
@@ -371,7 +371,7 @@
         (name "ANT_GNSS" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
@@ -383,31 +383,31 @@
         (name "NET_MODE" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "50" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "51" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "52" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "53" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "54" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 25.4 -58.42 180) (length 3.81) hide
+      (pin no_connect line (at -21.59 -76.2 0) (length 3.81) hide
         (name "RESERVED" (effects (font (size 1.27 1.27))))
         (number "55" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "56" (effects (font (size 1.27 1.27))))
       )
@@ -479,75 +479,75 @@
         (name "USB_VBUS" (effects (font (size 1.27 1.27))))
         (number "71" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "72" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -66.04 90) (length 3.81)
+      (pin power_in line (at 0 -92.71 90) (length 3.81)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "85" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "86" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "87" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "88" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "89" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "90" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "91" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "92" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "93" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "94" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "95" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "96" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "97" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "98" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -66.04 90) (length 3.81) hide
+      (pin passive line (at 0 -92.71 90) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "99" (effects (font (size 1.27 1.27))))
       )
