@@ -1,6 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "my_RF_LTE")(type "KiCad")(uri "${KIPRJMOD}/my_RF_LTE.kicad_sym")(options "")(descr ""))
   (lib (name "my_MCU_Microchip_32bit")(type "KiCad")(uri "${KIPRJMOD}/my_MCU_Microchip_32bit.kicad_sym")(options "")(descr ""))
   (lib (name "my_Transistor_Array")(type "KiCad")(uri "${KIPRJMOD}/my_Transistor_Array.kicad_sym")(options "")(descr ""))
   (lib (name "my_Line_Driver")(type "KiCad")(uri "${KIPRJMOD}/my_Line_Driver.kicad_sym")(options "")(descr ""))
