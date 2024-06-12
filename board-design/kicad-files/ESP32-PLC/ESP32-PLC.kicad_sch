@@ -3229,9 +3229,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "C7") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -3292,9 +3289,6 @@
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "#PWR024") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3366,9 +3360,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "R12") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -3393,9 +3384,6 @@
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "#PWR010") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3492,9 +3480,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "R1") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -3529,9 +3514,6 @@
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "R8") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -3654,9 +3636,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "C3") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -3716,9 +3695,6 @@
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "R10") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -3788,9 +3764,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "R3") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -3850,9 +3823,6 @@
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "R9") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -4028,9 +3998,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "R2") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4102,9 +4069,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "R6") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4140,9 +4104,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "C5") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -4177,9 +4138,6 @@
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "R5") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -4230,9 +4188,6 @@
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "#PWR09") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4302,9 +4257,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "C6") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -4329,9 +4281,6 @@
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "#PWR012") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4668,9 +4617,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "R4") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4805,9 +4751,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "R11") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4893,9 +4836,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "C4") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -4930,9 +4870,6 @@
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "C1") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -5086,9 +5023,6 @@
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "#PWR022") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -5298,9 +5232,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "R7") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -5336,9 +5267,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "C2") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -5363,9 +5291,6 @@
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "#PWR011") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -5402,9 +5327,6 @@
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "C8") (unit 1)
         )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -5429,9 +5351,6 @@
       (project "ESP32-PLC"
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
           (reference "#PWR02") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "#PWR08") (unit 1)
         )
       )
     )

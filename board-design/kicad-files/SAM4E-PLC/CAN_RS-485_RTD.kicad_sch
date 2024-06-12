@@ -3160,7 +3160,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 77.47 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 116e1bd7-ee99-4fdf-b9e0-91e8b08ce1a4)
-    (property "Reference" "L?" (at 77.47 52.07 90)
+    (property "Reference" "L3" (at 77.47 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FB0805/600R/2A" (at 77.47 58.42 90)
@@ -3185,12 +3185,6 @@
     (pin "2" (uuid eb246f15-038e-447e-9aba-f0540f130fdb))
     (instances
       (project "SAM4E-PLC"
-        (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
-          (reference "L?") (unit 1)
-        )
-        (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/f76e13f7-6a24-4ea6-98c5-a4d0bd3b3ced"
-          (reference "L?") (unit 1)
-        )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "L3") (unit 1)
         )
@@ -3691,7 +3685,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 289.56 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 345a5474-3771-4008-926d-cd8d9940f24f)
-    (property "Reference" "L?" (at 289.56 68.58 90)
+    (property "Reference" "L7" (at 289.56 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FB0805/600R/2A" (at 289.56 74.93 90)
@@ -3716,12 +3710,6 @@
     (pin "2" (uuid 26c07f22-a833-4792-a659-4bf40a84e5f5))
     (instances
       (project "SAM4E-PLC"
-        (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
-          (reference "L?") (unit 1)
-        )
-        (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/f76e13f7-6a24-4ea6-98c5-a4d0bd3b3ced"
-          (reference "L?") (unit 1)
-        )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "L7") (unit 1)
         )
@@ -4638,7 +4626,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 77.47 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93935eed-d60a-4a9f-bb0a-eb0c1c9d5d0e)
-    (property "Reference" "L?" (at 77.47 142.24 90)
+    (property "Reference" "L4" (at 77.47 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FB0805/600R/2A" (at 77.47 148.59 90)
@@ -4663,12 +4651,6 @@
     (pin "2" (uuid 56c8902e-3bbb-4d7c-84f8-54c481c1fb20))
     (instances
       (project "SAM4E-PLC"
-        (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
-          (reference "L?") (unit 1)
-        )
-        (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/f76e13f7-6a24-4ea6-98c5-a4d0bd3b3ced"
-          (reference "L?") (unit 1)
-        )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "L4") (unit 1)
         )
@@ -4679,7 +4661,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 172.72 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 976bb28b-fb20-4b83-95b7-9874de9ad46f)
-    (property "Reference" "L?" (at 172.72 68.58 90)
+    (property "Reference" "L5" (at 172.72 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FB0805/600R/2A" (at 172.72 74.93 90)
@@ -4704,12 +4686,6 @@
     (pin "2" (uuid cf7b830d-9866-4ce9-9886-c97cadf3155a))
     (instances
       (project "SAM4E-PLC"
-        (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
-          (reference "L?") (unit 1)
-        )
-        (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/f76e13f7-6a24-4ea6-98c5-a4d0bd3b3ced"
-          (reference "L?") (unit 1)
-        )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "L5") (unit 1)
         )
@@ -4865,7 +4841,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 271.78 177.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b873aeef-9a00-4848-875e-2e5d52c2c3a2)
-    (property "Reference" "L?" (at 271.78 173.99 90)
+    (property "Reference" "L6" (at 271.78 173.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FB0805/600R/2A" (at 271.78 180.34 90)
@@ -4890,12 +4866,6 @@
     (pin "2" (uuid 11ac6b8f-4675-4d2f-9ab8-9688f794585e))
     (instances
       (project "SAM4E-PLC"
-        (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/aee81a7b-cba1-4b89-a883-459d3f783e91"
-          (reference "L?") (unit 1)
-        )
-        (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/f76e13f7-6a24-4ea6-98c5-a4d0bd3b3ced"
-          (reference "L?") (unit 1)
-        )
         (path "/93076d8a-73da-4f5d-b7f2-28678f1db77d/32910dfe-b730-4651-8391-975b8cdac59d"
           (reference "L6") (unit 1)
         )

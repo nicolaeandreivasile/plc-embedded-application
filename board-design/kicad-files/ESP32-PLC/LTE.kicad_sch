@@ -3225,7 +3225,7 @@
   (symbol (lib_id "Device:R") (at 256.54 172.72 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 047f4100-eb67-45a4-a061-bb58b7698b1e)
-    (property "Reference" "R?" (at 257.81 177.8 90)
+    (property "Reference" "R45" (at 257.81 177.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K/R0603" (at 257.81 163.83 90)
@@ -3250,12 +3250,6 @@
     (pin "2" (uuid a25e3960-86c0-4304-b8ea-f0bbc813ac68))
     (instances
       (project "ESP32-PLC"
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
-          (reference "R?") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R23") (unit 1)
-        )
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c9284e56-31b2-4e73-96db-1ba1bc1f0222"
           (reference "R45") (unit 1)
         )
@@ -3357,7 +3351,7 @@
   (symbol (lib_id "Device:R") (at 299.72 208.28 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d5bec03-f753-42d9-8427-d563f089816d)
-    (property "Reference" "R?" (at 300.99 213.36 90)
+    (property "Reference" "R56" (at 300.99 213.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "51K/R0603" (at 300.99 199.39 90)
@@ -3382,12 +3376,6 @@
     (pin "2" (uuid 4cda0454-d255-42d1-a97a-f7ffc44ae776))
     (instances
       (project "ESP32-PLC"
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
-          (reference "R?") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R23") (unit 1)
-        )
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c9284e56-31b2-4e73-96db-1ba1bc1f0222"
           (reference "R56") (unit 1)
         )
@@ -3403,7 +3391,7 @@
   (symbol (lib_id "Device:R") (at 256.54 77.47 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dfae9a9-7ca2-47af-a075-299aa0019d88)
-    (property "Reference" "R?" (at 257.81 82.55 90)
+    (property "Reference" "R43" (at 257.81 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K/R0603" (at 257.81 68.58 90)
@@ -3428,12 +3416,6 @@
     (pin "2" (uuid a071783d-7def-41e7-acd7-a63497f71f0d))
     (instances
       (project "ESP32-PLC"
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
-          (reference "R?") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R23") (unit 1)
-        )
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c9284e56-31b2-4e73-96db-1ba1bc1f0222"
           (reference "R43") (unit 1)
         )
@@ -3525,7 +3507,7 @@
   (symbol (lib_id "Device:R") (at 256.54 208.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ba74eca-1ac3-467f-a006-88a637439d43)
-    (property "Reference" "R?" (at 255.27 213.36 90)
+    (property "Reference" "R46" (at 255.27 213.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120K/R0603" (at 255.27 199.39 90)
@@ -3550,12 +3532,6 @@
     (pin "2" (uuid 4d18272d-7348-45a4-8ebc-dd2d216462a8))
     (instances
       (project "ESP32-PLC"
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
-          (reference "R?") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R23") (unit 1)
-        )
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c9284e56-31b2-4e73-96db-1ba1bc1f0222"
           (reference "R46") (unit 1)
         )
@@ -3648,7 +3624,7 @@
   (symbol (lib_id "Device:R") (at 259.08 208.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 228027d1-58e7-4eaa-b953-1dd5e10776ae)
-    (property "Reference" "R?" (at 257.81 213.36 90)
+    (property "Reference" "R47" (at 257.81 213.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "51K/R0603" (at 257.81 199.39 90)
@@ -3673,12 +3649,6 @@
     (pin "2" (uuid f2a3286c-dbf0-41f9-8749-1a22fd5db6ad))
     (instances
       (project "ESP32-PLC"
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
-          (reference "R?") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R23") (unit 1)
-        )
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c9284e56-31b2-4e73-96db-1ba1bc1f0222"
           (reference "R47") (unit 1)
         )
@@ -3856,7 +3826,7 @@
   (symbol (lib_id "Device:R") (at 118.11 86.36 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2eac5687-7af8-4098-a379-48ecd774c2e4)
-    (property "Reference" "R?" (at 118.11 83.82 90)
+    (property "Reference" "R37" (at 118.11 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47K/R0603" (at 116.84 88.9 90)
@@ -3881,12 +3851,6 @@
     (pin "2" (uuid 67ff1ecd-0af2-4b88-bb39-5235f40df1aa))
     (instances
       (project "ESP32-PLC"
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
-          (reference "R?") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R23") (unit 1)
-        )
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c9284e56-31b2-4e73-96db-1ba1bc1f0222"
           (reference "R37") (unit 1)
         )
@@ -3945,7 +3909,7 @@
   (symbol (lib_id "Device:R") (at 105.41 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3262d838-5b0a-4155-b209-141b6265ecc7)
-    (property "Reference" "R?" (at 105.41 96.52 90)
+    (property "Reference" "R36" (at 105.41 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7K/R0603" (at 105.41 101.6 90)
@@ -3970,12 +3934,6 @@
     (pin "2" (uuid 0a0ffdc5-b2dd-4f9d-bf9e-3a8516c854ef))
     (instances
       (project "ESP32-PLC"
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
-          (reference "R?") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R23") (unit 1)
-        )
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c9284e56-31b2-4e73-96db-1ba1bc1f0222"
           (reference "R36") (unit 1)
         )
@@ -4533,7 +4491,7 @@
   (symbol (lib_id "Device:R") (at 321.31 172.72 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6192129b-a181-4b2f-afbe-20f5339676a5)
-    (property "Reference" "R?" (at 320.04 177.8 90)
+    (property "Reference" "R57" (at 320.04 177.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K/R0603" (at 320.04 163.83 90)
@@ -4558,12 +4516,6 @@
     (pin "2" (uuid 2d1b946e-2e4c-43ed-9842-f67f13cace4f))
     (instances
       (project "ESP32-PLC"
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
-          (reference "R?") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R23") (unit 1)
-        )
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c9284e56-31b2-4e73-96db-1ba1bc1f0222"
           (reference "R57") (unit 1)
         )
@@ -4860,7 +4812,7 @@
   (symbol (lib_id "Device:R") (at 105.41 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83dc6d82-b357-49ac-aef0-25f2c6324324)
-    (property "Reference" "R?" (at 105.41 76.2 90)
+    (property "Reference" "R35" (at 105.41 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7K/R0603" (at 105.41 81.28 90)
@@ -4885,12 +4837,6 @@
     (pin "2" (uuid b96f1b46-7306-444f-806b-7002c4798577))
     (instances
       (project "ESP32-PLC"
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
-          (reference "R?") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R23") (unit 1)
-        )
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c9284e56-31b2-4e73-96db-1ba1bc1f0222"
           (reference "R35") (unit 1)
         )
@@ -4906,7 +4852,7 @@
   (symbol (lib_id "power:Earth_Protective") (at 73.66 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 874ea76e-09c5-4be9-b6c2-dfa81895efac)
-    (property "Reference" "#PWR03" (at 80.01 162.56 0)
+    (property "Reference" "#PWR036" (at 80.01 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth_Protective" (at 85.09 160.02 0)
@@ -4921,9 +4867,6 @@
     (pin "1" (uuid 9d851127-7a85-4d48-b126-14b3dc9bab89))
     (instances
       (project "ESP32-PLC"
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
-          (reference "#PWR03") (unit 1)
-        )
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c9284e56-31b2-4e73-96db-1ba1bc1f0222"
           (reference "#PWR036") (unit 1)
         )
@@ -5751,7 +5694,7 @@
   (symbol (lib_id "Device:R") (at 118.11 106.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid caf05c7f-449b-430c-b0ad-39e12b6af954)
-    (property "Reference" "R?" (at 118.11 104.14 90)
+    (property "Reference" "R38" (at 118.11 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47K/R0603" (at 116.84 109.22 90)
@@ -5776,12 +5719,6 @@
     (pin "2" (uuid e34de34f-2288-4ee3-9689-fe9a4394239c))
     (instances
       (project "ESP32-PLC"
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3"
-          (reference "R?") (unit 1)
-        )
-        (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/153766c4-5539-4687-8dd8-c000826b4aca"
-          (reference "R23") (unit 1)
-        )
         (path "/73e71d8b-00c7-414e-8d46-984de36f83d3/c9284e56-31b2-4e73-96db-1ba1bc1f0222"
           (reference "R38") (unit 1)
         )
